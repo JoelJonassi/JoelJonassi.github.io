@@ -1,12 +1,16 @@
-name: Kylie Ying
+name: Joel Jonassi
 # permalink: /:title/
-# baseurl: https://kylieying.com
+# baseurl: https://joeljonassi.github.io
 # baseurl: ""
 permalink: /blog/:title
 
 # seo tag
 plugins:
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
 
 # Google Analytics
 google_analytics: G-TEEDE1GB8S

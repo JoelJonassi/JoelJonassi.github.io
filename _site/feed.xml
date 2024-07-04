@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-04T10:46:25+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Joel Jonassi</title><entry><title type="html">Handle large list of images on Kotlin Android with Glide</title><link href="http://localhost:4000/blog/large-list-image" rel="alternate" type="text/html" title="Handle large list of images on Kotlin Android with Glide" /><published>2024-05-01T00:00:00+01:00</published><updated>2024-05-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/large-list-image</id><content type="html" xml:base="http://localhost:4000/blog/large-list-image"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+
+<h2 id="android">Android</h2>
+
+<p>Scrolling through a large list of data can lead to memory leaks or app crashes. Various approaches, such as sliding window algorithms, API pagination, and optimizing image sizes, can be used to manage this. However, to simplify the process, you can use the Glide library.</p>
+
+<p>Glide is an open-source library that helps handle large lists of images in your app smoothly, without causing memory leaks or crashes.</p>
+
+<p>According to the official repository, “Glide is a fast and efficient open-source media management and image loading framework for Android that wraps media decoding, memory and disk caching, and resource pooling into a simple and easy-to-use interface”.</p>
+
+<h2 id="usage-in-gradle">Usage in Gradle</h2>
+
+<p>Add the following to your <code class="language-plaintext highlighter-rouge">build.gradle</code> file:</p>
+
+<div class="language-gradle highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">repositories</span> <span class="o">{</span>
+  <span class="n">google</span><span class="o">()</span>
+  <span class="n">mavenCentral</span><span class="o">()</span>
+<span class="o">}</span>
+
+<span class="k">dependencies</span> <span class="o">{</span>
+  <span class="n">implementation</span> <span class="s1">'com.github.bumptech.glide:glide:4.16.0'</span>
+<span class="o">}</span> 
+</code></pre></div></div>
+
+<h3 id="implementation">Implementation</h3>
+<p>The Glide library can be used to fetch an image from a cloud resource directly to an ImageView element in the layout:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>val urlResource = "https://..."
+Glide.with(this).load(urlResource).into(imageView)
+</code></pre></div></div>
+<p>Glide is commonly used in adapters when a large amount of data needs to be displayed.</p>
+
+<p>XML Layout (image_item.xml)</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"&gt;
+
+    &lt;ImageView
+        android:id="@+id/image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"/&gt;
+&lt;/LinearLayout&gt;
+</code></pre></div></div>
+<h3 id="adapter-implementation">Adapter Implementation</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class ImageAdapter(val activity: Activity) : RecyclerView.Adapter&lt;ImageAdapter.ViewHolder&gt;() {
+    private var images: MutableList&lt;Image&gt;? = null
+
+    fun setEvents(images: MutableList&lt;Image&gt;?) {
+        this.images = images
+        notifyDataSetChanged()
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageAdapter.ViewHolder {
+        return ViewHolder(LayoutInflater.from(activity).inflate(R.layout.image_item, parent, false))
+    }
+
+    inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
+        val image: ImageView = view.findViewById(R.id.image)
+    }
+
+    override fun onBindViewHolder(holder: ImageAdapter.ViewHolder, position: Int) {
+        images?.get(position)?.let { image -&gt;
+            // Glide can be used with URL
+            Glide.with(activity)
+                .load(image.imageUrl)
+                .into(holder.image)
+
+            // Glide can be used with base64 string
+            Glide.with(activity)
+                .load(base64ToBitmap(image.imageBase64))
+                .into(holder.image)
+
+            // Glide can be used with image file
+            val file = image.imagePath?.let { File(it) }
+            if (file?.exists() == true) {
+                Glide.with(activity)
+                    .load(file)
+                    .into(holder.image)
+            }
+        }
+    }
+
+    override fun getItemCount(): Int {
+        return images?.size ?: 0
+    }
+}
+</code></pre></div></div>
+
+<h3 id="image-model">Image Model</h3>
+<p>The Image model can have attributes like imageUrl, imageBase64, and imagePath. Glide is capable of handling all these formats.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Image(
+    val imageUrl: String? = null,
+    val imageBase64: String? = null,
+    val imagePath: String? = null
+)
+</code></pre></div></div>
+<p>Conclusion
+In this article, you learned how to load and cache images smoothly while scrolling in an Android application using the Glide library.</p>
+
+<p>You can find the official documentation of Glide here.</p>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry></feed>
