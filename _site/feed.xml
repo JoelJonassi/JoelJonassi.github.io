@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-09T10:37:48+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Joel Jonassi</title><entry><title type="html">Handle large list of images on Kotlin Android with Glide</title><link href="http://localhost:4000/blog/large-list-image" rel="alternate" type="text/html" title="Handle large list of images on Kotlin Android with Glide" /><published>2024-05-01T00:00:00+01:00</published><updated>2024-05-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/large-list-image</id><content type="html" xml:base="http://localhost:4000/blog/large-list-image"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-14T00:15:30+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Joel Jonassi</title><entry><title type="html">Handle large list of images on Kotlin Android with Glide</title><link href="http://localhost:4000/blog/large-list-image" rel="alternate" type="text/html" title="Handle large list of images on Kotlin Android with Glide" /><published>2024-05-01T00:00:00+01:00</published><updated>2024-05-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/large-list-image</id><content type="html" xml:base="http://localhost:4000/blog/large-list-image"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
 
 <h2 id="android">Android</h2>
 
@@ -103,4 +103,46 @@ Glide.with(this).load(urlResource).into(imageView)
 <p>Conclusion
 In this article, you learned how to load and cache images smoothly while scrolling in an Android application using the Glide library.</p>
 
-<p>You can find the official documentation of Glide here.</p>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry></feed>
+<p>You can find the official documentation of Glide here.</p>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Public Speaking Phobia Mitigation</title><link href="http://localhost:4000/blog/virtual-reality" rel="alternate" type="text/html" title="Public Speaking Phobia Mitigation" /><published>2023-11-01T00:00:00+00:00</published><updated>2023-11-01T00:00:00+00:00</updated><id>http://localhost:4000/blog/virtual-reality</id><content type="html" xml:base="http://localhost:4000/blog/virtual-reality"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+
+<div id="pdf-container"> </div>
+
+<script>
+  // URL of the PDF
+  const url = '../docs/Paper_CENTERIS_VR.pdf';
+
+  // Asynchronous download of PDF
+  pdfjsLib.getDocument(url).promise.then(function(pdf) {
+            console.log('PDF loaded');
+
+            // Loop through each page
+            for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
+                // Fetch each page
+                pdf.getPage(pageNumber).then(function(page) {
+                    var scale = 3
+                    var viewport = page.getViewport({ scale: scale });
+
+                    // Prepare canvas using PDF page dimensions
+                    var canvas = document.createElement('canvas');
+                    canvas.className = 'pdf-page';
+                    var context = canvas.getContext('2d');
+                    canvas.height = viewport.height;
+                    canvas.width = viewport.width;
+
+                    // Render PDF page into canvas context
+                    var renderContext = {
+                        canvasContext: context,
+                        viewport: viewport
+                    };
+                    var renderTask = page.render(renderContext);
+                    renderTask.promise.then(function() {
+                        console.log('Page rendered', pageNumber);
+                    });
+
+                    // Append canvas to the container
+                    document.getElementById('pdf-container').appendChild(canvas);
+                });
+            }
+        });
+
+</script>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry></feed>

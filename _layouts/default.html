@@ -38,11 +38,13 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
   <script type="text/javascript">
       (function() {
           emailjs.init("0XaqNedQoxfEtp2gT");
       })();
   </script>
+
 
     <title>{{page.title}}</title>
 
@@ -53,6 +55,16 @@
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6090964870909817"
         crossorigin="anonymous"></script>
+
+        <style>
+          .pdf-page {
+              border: 1px solid black;
+              margin-bottom: 20px;
+              margin-left: 1%;
+              margin-right: 2%;
+              width: 100%;
+          }
+      </style>
 </head>
 
 <body class="minimal">
@@ -78,6 +90,8 @@
             </div>
         </nav>
     </header>
+
+
 
     {{content}}
 
