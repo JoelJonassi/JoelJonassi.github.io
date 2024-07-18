@@ -1,30 +1,3 @@
----
-layout: page
-title:
----
-<div class="section-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="">
-        <div class="card-container">
-          <div class="text-center">
-            <h1 class="h2">VR Training for Public Speaking</h1>
-          </div>
-          <p>
-            VR Training for Public Speaking helps combat the social phobia of public speaking. This system consists of a virtual reality mobile app and a web platform.
-
-            The VR mobile app introduces the participant to a public speaking simulation and assesses their behavior in real time to encourage them to speak effectively in public and manage negative states.
-            
-            The web platform supports a set of services that allow users to enter speeches and scenarios into the system to practice. Scenarios and speeches entered by the administrator are accessible to all users and those entered by a user (non-administrator) are only accessible to that user.
-        </p>
-
-        <p>Feel free to explore the project <a href="https://www.erasmuska2.com" target="_blank"> page</a></p>
-  
-        </div>
-      </div>
-    </div>
-
     <div class="text-center">
       <h2 >Technologies</h2>
       <div>
@@ -32,6 +5,8 @@ title:
         <img src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github" width="80">
         <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/c/c-plain.svg" width="40"/>
         <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original.svg" width="80">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/java/java-original.svg" width="80">
 
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original-wordmark.svg" width="80">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" width="80">
@@ -39,9 +14,5 @@ title:
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80">
         <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" width="80">
-        
     </div>
-      
     </div>
-  </div>
-</div>
