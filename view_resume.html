@@ -1,0 +1,63 @@
+---
+layout: page
+title: Resume
+---
+
+
+<div style="margin-left: 8%;">
+    <a href="assets/cv/Joel Jonassi Resume.pdf" download>
+        <button type="button">Download Resume</button>
+    </a>
+</div>
+
+ 
+<div class="section-container">
+    <div class="container">   
+        <div class="row">
+            <div id="pdf-container">
+    
+            </div>
+        </div>
+    </div>
+</div>
+        
+        <script>
+            // URL of the PDF
+            const url = '../assets/cv/Europass_CV_Joel Jonassi.pdf';
+          
+            // Asynchronous download of PDF
+            // Asynchronous download of PDF
+            pdfjsLib.getDocument(url).promise.then(function(pdf) {
+                      console.log('PDF loaded');
+          
+                      // Loop through each page
+                      for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
+                          // Fetch each page
+                          pdf.getPage(pageNumber).then(function(page) {
+                              var scale = 3
+                              var viewport = page.getViewport({ scale: scale });
+          
+                              // Prepare canvas using PDF page dimensions
+                              var canvas = document.createElement('canvas');
+                              canvas.className = 'pdf-page';
+                              var context = canvas.getContext('2d');
+                              canvas.height = viewport.height;
+                              canvas.width = viewport.width;
+          
+                              // Render PDF page into canvas context
+                              var renderContext = {
+                                  canvasContext: context,
+                                  viewport: viewport
+                              };
+                              var renderTask = page.render(renderContext);
+                              renderTask.promise.then(function() {
+                                  console.log('Page rendered', pageNumber);
+                              });
+          
+                              // Append canvas to the container
+                              document.getElementById('pdf-container').appendChild(canvas);
+                          });
+                      }
+                  });
+          
+        </script>

@@ -4,68 +4,101 @@ title: Resume
 ---
 
 
-<div style="margin-left: 5%;">
+<div style="margin-left: 8%;">
+    <a href="{{ site.baseurl }}/view_resume.html">
+        <button type="button">View Resume</button>
+    </a>
     <a href="assets/cv/Joel Jonassi Resume.pdf" download>
         <button type="button">Download Resume</button>
     </a>
+
 </div>
 
- 
-        <div class="section-container">
-
-        
-
-            <div class="container">
-
-                
-              <div class="row">
-              
-        
-                <div id="pdf-container">
-        
+<div class="section-container">
+    <div class="container">
+        <div class="row resume-row-label">
+            <div class="col-xs-12">
+                <div class="template-example">
+                    <h2 class="template-title-example">Education</h2>
                 </div>
-
             </div>
         </div>
+        <div class="row resume-row">
+            <div class="col-xs-12 col-md-5">
+                <div class="resume-logo">
+                    <img src="/img/ipca.png" alt="MIT logo" class="resume-photo">
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-7">
+                <div class="template-example resume-item">
+                    <h3>Cavado and Ave Polytechnic Institute (IPCA) </h3>
+                    <p> Computer Systems Engineer | 2023</p>
+                </div>
+            </div>
         </div>
-        
-        <script>
-            // URL of the PDF
-            const url = '../assets/cv/Europass_CV_Joel Jonassi.pdf';
-          
-            // Asynchronous download of PDF
-            // Asynchronous download of PDF
-            pdfjsLib.getDocument(url).promise.then(function(pdf) {
-                      console.log('PDF loaded');
-          
-                      // Loop through each page
-                      for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
-                          // Fetch each page
-                          pdf.getPage(pageNumber).then(function(page) {
-                              var scale = 3
-                              var viewport = page.getViewport({ scale: scale });
-          
-                              // Prepare canvas using PDF page dimensions
-                              var canvas = document.createElement('canvas');
-                              canvas.className = 'pdf-page';
-                              var context = canvas.getContext('2d');
-                              canvas.height = viewport.height;
-                              canvas.width = viewport.width;
-          
-                              // Render PDF page into canvas context
-                              var renderContext = {
-                                  canvasContext: context,
-                                  viewport: viewport
-                              };
-                              var renderTask = page.render(renderContext);
-                              renderTask.promise.then(function() {
-                                  console.log('Page rendered', pageNumber);
-                              });
-          
-                              // Append canvas to the container
-                              document.getElementById('pdf-container').appendChild(canvas);
-                          });
-                      }
-                  });
-          
-        </script>
+
+        <div class="row resume-row">
+            <div class="col-xs-12 col-md-5">
+                <div class="resume-logo">
+                    <img src="/img/cior.png" alt="MIT logo" class="resume-photo">
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-7">
+                <div class="template-example resume-item">
+                    <h3>CIOR Professional School </h3>
+                    <p> Eletronics, Automation and Command Technician | 2018</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row resume-row-label">
+            <div class="col-xs-12">
+                <div class="template-example">
+                    <h2 class="template-title-example">Experience</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row resume-row">
+            <div class="col-xs-12 col-md-5">
+                <div class="resume-logo">
+                    <img src="/img/linovt.png" alt="Linovt logo" class="resume-photo">
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-7">
+                <div class="template-example resume-item">
+                    <h3>Linovt</h3>
+                    <p>Software Engineer | Sept 2023 - Current</p>
+                </div>
+            </div>
+        </div>
+        <div class="row resume-row">
+            <div class="col-xs-12 col-md-5">
+                <div class="resume-logo">
+                    <img src="/img/optimizer.jpg" alt="Optimizer logo" class="resume-photo" width="1500em" heigth="1500em">
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-7">
+                <div class="template-example resume-item">
+                    <h3>Optimizer</h3>
+                    <p>Software Engineer Intern | Feb 2023 - Jun 2023</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row resume-row">
+            <div class="col-xs-12 col-md-5">
+                <div class="resume-logo">
+                    <img src="/img/erasmusplus.jpg" alt="Optimizer logo" class="resume-photo">
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-7">
+                <div class="template-example resume-item">
+                    <h3>Erasmus+ (2020-1-FR01-KA226-VET-09412)</h3>
+                    <p> Research Member | Sept 2022 - Jun 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
