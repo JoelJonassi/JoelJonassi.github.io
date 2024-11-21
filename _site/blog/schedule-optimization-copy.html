@@ -46,7 +46,7 @@
   </script>
 
 
-    <title>Resume</title>
+    <title>Schedules making problem (Intelligent Agent)</title>
 
     <link href="/css/default.css" rel="stylesheet" type="text/css">
     
@@ -90,76 +90,92 @@
 
 
 
-    <div class="section-container">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="template-example">
-                    <h1 class="page-title">Resume</h1>
-                </div>
-            </div>
+    <div class="section-container post">
+  <div class="container blog-post">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="template-example">
+          <h1 class="page-title">Schedules making problem (Intelligent Agent)</h1>
+          
+          <time datetime="2022-12-01T00:00:00+01:00">Dec 1, 2022</time>
         </div>
+      </div>
     </div>
+  </div>
+  
+  <div class="container blog-post-text">
+    <div class="row">
+      <div class="col-xs-12">
+        <p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
 
-    <div class="text-center">
-    <a href="assets/docs/Joel Jonassi Resume.pdf" download>
-        <button type="button">Download Resume</button>
-    </a>
+<p>School Project
+Developed and implemented an intelligent agent to optimize class schedules by minimizing travel
+to campus and classroom utilization. The agent aimed to find the most efficient solution that
+reduced the number of days each class had to commute and minimized the overall need forclassrooms, thereby contributing to a reduction in campus travel and the requirement for air
+conditioning.
+SKILLS: Python, Jupyter, Constraint Satisfaction Problems (CSP), GIT and GitHub.</p>
+
+      </div>
+    </div>
+    <nav class="post-nav">
+      
+      <a class="post-nav-item post-nav-prev" href="/blog/support-systems-for-lawyers">
+        <div class="nav-arrow">Previous</div>
+        <span class="post-title">Support systems for lawyers</span>
+      </a>
+      
+      
+      <a class="post-nav-item post-nav-next" href="/blog/iot-system">
+        <div class="nav-arrow">Next</div>
+        <span class="post-title">Iot System (Smart Rooms)</span>
+      </a>
+      
+
+    </nav>
+  </div>
+
 </div>
 
- 
-<div class="section-container">
-    <div class="container">   
-        <div class="row">
-            <div id="pdf-container">
+<!-- <section class="post">
+  <div class="flex-row-between">
+    <a href="http://localhost:4000/blog.html">« back</a>
+  </div>
+  
+  <time datetime="2022-12-01T00:00:00+01:00">Dec 1, 2022</time>
+  <h1 class="title">Schedules making problem (Intelligent Agent)</h1>
+  <span class="meta">
     
-            </div>
-        </div>
-    </div>
-</div>
-        
-        <script>
-            // URL of the PDF
-            const url = '../assets/docs/Joel Jonassi Resume.pdf';
-          
-            // Asynchronous download of PDF
-            // Asynchronous download of PDF
-            pdfjsLib.getDocument(url).promise.then(function(pdf) {
-                      console.log('PDF loaded');
-          
-                      // Loop through each page
-                      for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
-                          // Fetch each page
-                          pdf.getPage(pageNumber).then(function(page) {
-                              var scale = 3
-                              var viewport = page.getViewport({ scale: scale });
-          
-                              // Prepare canvas using PDF page dimensions
-                              var canvas = document.createElement('canvas');
-                              canvas.className = 'pdf-page';
-                              var context = canvas.getContext('2d');
-                              canvas.height = viewport.height;
-                              canvas.width = viewport.width;
-          
-                              // Render PDF page into canvas context
-                              var renderContext = {
-                                  canvasContext: context,
-                                  viewport: viewport
-                              };
-                              var renderTask = page.render(renderContext);
-                              renderTask.promise.then(function() {
-                                  console.log('Page rendered', pageNumber);
-                              });
-          
-                              // Append canvas to the container
-                              document.getElementById('pdf-container').appendChild(canvas);
-                          });
-                      }
-                  });
-          
-        </script>
+    <a href="http://localhost:4000/tag/Kotlin,">Kotlin,</a>, 
+    <a href="http://localhost:4000/tag/Android">Android</a>
+  </span>
+<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
 
-</div>
+<p>School Project
+Developed and implemented an intelligent agent to optimize class schedules by minimizing travel
+to campus and classroom utilization. The agent aimed to find the most efficient solution that
+reduced the number of days each class had to commute and minimized the overall need forclassrooms, thereby contributing to a reduction in campus travel and the requirement for air
+conditioning.
+SKILLS: Python, Jupyter, Constraint Satisfaction Problems (CSP), GIT and GitHub.</p>
+
+</section>
+
+<section>
+  <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/blog/support-systems-for-lawyers">
+      <div class="nav-arrow">Previous</div>
+      <span class="post-title">Support systems for lawyers</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/blog/iot-system">
+      <div class="nav-arrow">Next</div>
+      <span class="post-title">Iot System (Smart Rooms)</span>
+    </a>
+    
+
+  </nav>
+</section> -->
 
     <footer class="footer-container text-center">
         <div class="container">

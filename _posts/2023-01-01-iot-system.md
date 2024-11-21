@@ -1,0 +1,108 @@
+---
+layout: post
+title: Iot System (Smart Rooms)
+description: Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.
+summary:
+tags: Kotlin, Android
+---
+
+<i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." Benjamin Franklin</i>
+
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="">
+        <div class="card-container">
+          <div class="text-center">
+          </div>
+          <p>
+            Project developed within the scope of the Applied Project discipline, to make classrooms more sustainable.
+    
+            During the academic journey, a regular situation among newly arrived students is to seek information at the reception such as: 
+            <br>
+            <br>
+            i) Where the classes of a particular curricular unit are taking place <br>
+            ii) Where a particular room is located, and in certain situations the receptionist has to accompany the place <br>
+            iii) Collect information from the room, which teacher is teaching? what discipline? what is the state of the room (temperature, humidity, harmful gases) <br>
+            iv) Turn off equipment eg. "Air conditioning" often forgotten on, turn off the lights. 
+            <br><br>
+            It is in this context that the SmartRooms project emerged, combined with the concept of Smart Cities to improve the life of the academic in everyday life, it is a bidirectional system, which allows to control actuators and receive the status of actuators eg. "temperature, humidity, etc." through a mobile application.
+    
+          </p>
+          <br>
+          <p>
+           Skills: REST APIs · Kotlin · Raspberry Pi · Embedded Systems · Internet of Things (IoT) · Arduino · ASP.NET · Android Development · Python
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-md-8 col-md-offset-2 section-container-spacer text-center">
+      <img src="../assets/images/SmartRooms/RaspberryArduinoConnection.png" class="img-responsive" alt="">
+      <p>Developed Embedded system</p>
+    </div>
+    <div class="graphic-container">
+      <video width="640" height="320" controls="" class="centered">
+      <source src="../assets/images/SmartRooms/SmartRoomsVideo.mp4" type="video/mp4">
+      </video>
+
+    </div>
+    <p class="text-center">Live Demonstration of the Implemented IoT System in Action</p>
+
+     <!-- Start a-->
+     <div class="col-md-8 col-md-offset-2 section-container-spacer">
+      <div class="row">
+        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Aluno-Login.png" class="img-responsive" alt="">
+          <p></p>
+        </div>
+        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Professor-Dados.png" class="img-responsive" alt="">
+          <p></p>
+        </div>
+        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Professor-Detalhe_Sensor.png" class="img-responsive" alt="">
+          <p></p>
+        </div>
+        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Professor-Operacoes.png" class="img-responsive" alt="">
+          <p></p>
+        </div>
+        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Professor-Unidades_Curriculares.png" class="img-responsive" alt="">
+          <p></p>
+        </div>
+        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Tecnico-Adicionar_Sensor.png class="img-responsive" alt="">
+          <p></p>
+        </div>
+        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Tecnico-Lista_Escolas.png" class="img-responsive" alt="">
+          <p></p>
+        </div>
+      </div>
+
+      <div class="col-xs-12 text-center">
+        <img src="../assets/images/SmartRooms/Professor-Flow.png" class="img-responsive" alt="">
+        <p>SmartRooms Developed App</p>
+      </div>
+
+
+    </div> <!-- End a-->
+
+
+    <div class="text-center">
+      <h2 >Technologies</h2>
+      <div>
+        <img src="https://images.shields.io/badge/-Git-333333?style=flat&logo=git" width="80">
+        <img src="https://images.shields.io/badge/-GitHub-333333?style=flat&logo=github" width="80">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/c/c-plain.svg" width="40"/>
+        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original.svg" width="80">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60">
+        <img src="https://cdn.worldvectorlogo.com/logos/raspberry-pi.svg" width="60">
+        <img src="https://e7.pngegg.com/pngimages/758/841/png-clipart-arduino-max-electronic-circuit-pure-data-oscilloscope-raspberry-pi-icons-logo-microcontroller.png" width="60">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80">
+        <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" width="80">
+    </div>
+
+  </div>
+
+  </div>
+</div>
