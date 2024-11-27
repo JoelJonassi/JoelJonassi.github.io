@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-24T18:40:19+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Joel Jonassi</title><entry><title type="html">Integration Architecture to Support IoT Devices in SmartEnviroments</title><link href="http://localhost:4000/blog/integration-architecture-support-IoT-devices" rel="alternate" type="text/html" title="Integration Architecture to Support IoT Devices in SmartEnviroments" /><published>2024-06-01T00:00:00+02:00</published><updated>2024-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/integration-architecture-support-IoT-devices</id><content type="html" xml:base="http://localhost:4000/blog/integration-architecture-support-IoT-devices"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-27T22:30:53+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Joel Jonassi</title><entry><title type="html">Integration Architecture to Support IoT Devices in SmartEnviroments</title><link href="http://localhost:4000/blog/integration-architecture-support-IoT-devices" rel="alternate" type="text/html" title="Integration Architecture to Support IoT Devices in SmartEnviroments" /><published>2024-06-01T00:00:00+02:00</published><updated>2024-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/integration-architecture-support-IoT-devices</id><content type="html" xml:base="http://localhost:4000/blog/integration-architecture-support-IoT-devices"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
 
 <div class="section-container">
     <div class="container">
@@ -7,34 +7,30 @@
           <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="" />
           <div class="card-container">
             <div>
-    
-            <p>
-              From February to June 2023 - Animal monitoring app Development of a mobile application, RESTFul API and a web platform based on a POC for monitoring animals in mountain areas, enabling tracking and understanding of animal behaviour in mountain areas. the behaviour of animals in mountainous areas, this is a system that includes (Web platform, Mobile application, Restful API)
-              <br /><br />
-              Technology: Kotlin, Android, C#, .NET 6, MOSQUITTO (MQTT), IIS, Angular, Typescript
-              Position: Trainee
-                <br />
-                <br />
-              Feel free to explore the <a href="https://github.com/JoelJonassi/JoeJonassiIPCA2023" target="_blank">Github</a>.
-              </p>
-          &lt;/p&gt;
-        </div>
-        
-        
-      
-
-      </div>
-      </div>
-    </div>
+          <p>
+            For my bachelor thesis I developed a mobile application, a RESTFul API and a web platform based on a POC for monitoring animals in mountain areas, enabling tracking and understanding of animal behaviour in mountain areas.This is a system that includes (Web platform, Mobile application, Restful API).
+          </p>
+          <p>
+            This project was developed during the internship at Optimezer, a company that provides consulting services in the it sector, the internship was conducted in the area of IoT and integration architecture.
+          </p>
+          <p>
+            From February to June 2023 I worked on the development of the RESTFul API using C#, PostgreSQL to store data and Mosquitto to communicate with the IoT devices. The mobile aplication was developed using Kotlin and the Web platform using Angular.
+          </p>
+          <p>
+            During the internship I worked on Technical documentation about how to use the API and the mobile application, and I also worked on the development of a web platform to support the mobile application.
+          </p>
+          <p>
+            Feel free to explore the written documents on github under the following link <a href="https://github.com/JoelJonassi/JoeJonassiIPCA2023" target="_blank">Github</a>.
+          </p>
+          <p>
+          The document is written in Portuguese. The developed code is not shared due to the sensitive nature of the project.
+          </p>
   <div class="text-center">
       <h2>Technologies</h2>
       <div>
-        <img src="https://images.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80" />
-        <img src="https://images.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original.svg" width="80" />
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60" />
-        <img src="https://obrienlabs.net/images/content/mosquitto_logo.png" width="80" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" width="80" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" width="80" />
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80" />
@@ -44,7 +40,7 @@
   </div>
 
 </div>
-</div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Job Shop Problem algorithm</title><link href="http://localhost:4000/blog/VR-Training-Public-Speaking" rel="alternate" type="text/html" title="Job Shop Problem algorithm" /><published>2024-05-01T00:00:00+02:00</published><updated>2024-05-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/VR-Training-Public-Speaking</id><content type="html" xml:base="http://localhost:4000/blog/VR-Training-Public-Speaking"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+</div></div></div></div></div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Job Shop Problem algorithm</title><link href="http://localhost:4000/blog/VR-Training-Public-Speaking" rel="alternate" type="text/html" title="Job Shop Problem algorithm" /><published>2024-05-01T00:00:00+02:00</published><updated>2024-05-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/VR-Training-Public-Speaking</id><content type="html" xml:base="http://localhost:4000/blog/VR-Training-Public-Speaking"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
 
 <div class="section-container">
   <div class="container">
@@ -214,7 +210,7 @@ In this article, you learned how to load and cache images smoothly while scrolli
             A complete tool created for the Adventist Church in São Mateus de Oliveira, Famalicão is the Register
             Members App. This application is intended to simplify the administration of Sabbath School participants and
             provides a range of functionalities to improve the effectiveness and involvement of classroom monitors.
-
+            </p>
             With this App Class monitors can:
           <ul>
             <li>Continually record Sabbath School participants' arrivals and departures.</li>
@@ -224,41 +220,42 @@ In this article, you learned how to load and cache images smoothly while scrolli
             <li>Use the app to conveniently make direct phone calls to members.</li>
           </ul>
           <br />
-          Skills: Kotlin,Firebase, Design System: Applied a logical and consistent design
+          <p>Skills: Kotlin,Firebase, Design System: Applied a logical and consistent design</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      <!-- Start a-->
-      <div class="col-md-8 col-md-offset-2 section-container-spacer">
-        <div class="row">
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img0.jpeg" class="img-responsive" alt="" />
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img11.jpeg" class="img-responsive" alt="" />
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6">&lt;img src="../assets/images/img/Church App/img2.jpeg"img-responsive" alt=""&gt;
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img3.jpeg" class="img-responsive" alt="" />
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img10.jpeg" class="img-responsive" alt="" />
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
+<div class="col-md-8 col-md-offset-2 section-container-spacer">
+          <div class="row">
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img0.jpeg" class="img-responsive" alt="" />
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img11.jpeg" class="img-responsive" alt="" />
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6">&lt;img src="../assets/images/img/Church App/img2.jpeg"img-responsive" alt=""&gt;
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img3.jpeg" class="img-responsive" alt="" />
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img10.jpeg" class="img-responsive" alt="" />
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
+                img-responsive" alt="" />
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img6.jpeg" class="img-responsive" alt="" />
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
               img-responsive" alt="" />
             <p></p>
+            </div>
           </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img6.jpeg" class="img-responsive" alt="" />
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
-            img-responsive" alt="" />
-          <p></p>
-        </div>
-        </div>
+      </div>
         
         
 
@@ -268,20 +265,20 @@ In this article, you learned how to load and cache images smoothly while scrolli
         </div>
 
 
-      </div> <!-- End a-->
-
-      <div class="text-center">
-        <h2>Technologies</h2>
-        <div>
-          <img src="https://img.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80" />
-          <img src="https://img.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80" />       
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60" />
-          <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" width="180" />
       </div>
-    </div>
+<p><!-- End a--></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="text-center"&gt;
+      &lt;h2 &gt;Technologies&lt;/h2&gt;
+      &lt;div&gt;
+          &lt;img src="https://img.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80"&gt;
+          &lt;img src="https://img.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80"&gt;       
+          &lt;img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60"&gt;
+          &lt;img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" width="180"&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
-  &lt;/div&gt;
-</p></div></div></div></div></div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Public Speaking Phobia Mitigation (Project &amp;amp; Research)</title><link href="http://localhost:4000/blog/virtual-reality" rel="alternate" type="text/html" title="Public Speaking Phobia Mitigation (Project &amp;amp; Research)" /><published>2023-03-01T00:00:00+01:00</published><updated>2023-03-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/virtual-reality</id><content type="html" xml:base="http://localhost:4000/blog/virtual-reality"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+&lt;/div&gt;
+</code></pre></div></div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Public Speaking Phobia Mitigation (Project &amp;amp; Research)</title><link href="http://localhost:4000/blog/virtual-reality" rel="alternate" type="text/html" title="Public Speaking Phobia Mitigation (Project &amp;amp; Research)" /><published>2023-03-01T00:00:00+01:00</published><updated>2023-03-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/virtual-reality</id><content type="html" xml:base="http://localhost:4000/blog/virtual-reality"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
 
 <div class="section-container">
   <div class="container">

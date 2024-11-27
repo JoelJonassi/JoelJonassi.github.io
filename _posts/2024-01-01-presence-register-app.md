@@ -2,9 +2,10 @@
 layout: post
 title: App to register members present in the church
 description: Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.
-summary: 
+summary:
 tags: Kotlin, Android
 ---
+
 <i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." Benjamin Franklin</i>
 
 <div class="section-container">
@@ -19,7 +20,7 @@ tags: Kotlin, Android
             A complete tool created for the Adventist Church in São Mateus de Oliveira, Famalicão is the Register
             Members App. This application is intended to simplify the administration of Sabbath School participants and
             provides a range of functionalities to improve the effectiveness and involvement of classroom monitors.
-
+            </p>
             With this App Class monitors can:
           <ul>
             <li>Continually record Sabbath School participants' arrivals and departures.</li>
@@ -29,65 +30,65 @@ tags: Kotlin, Android
             <li>Use the app to conveniently make direct phone calls to members.</li>
           </ul>
           <br>
-          Skills: Kotlin,Firebase, Design System: Applied a logical and consistent design
-
-        </div>
+          <p>Skills: Kotlin,Firebase, Design System: Applied a logical and consistent design</p>
       </div>
+    </div>
+  </div>
+</div>
 
-      <!-- Start a-->
-      <div class="col-md-8 col-md-offset-2 section-container-spacer">
-        <div class="row">
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img0.jpeg" class="img-responsive"
-              alt="">
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img11.jpeg" class="img-responsive"
-              alt="">
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img2.jpeg"img-responsive" alt="">
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img3.jpeg"
-              class="img-responsive" alt="">
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img10.jpeg"
-              class="img-responsive" alt="">
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
+<div class="col-md-8 col-md-offset-2 section-container-spacer">
+          <div class="row">
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img0.jpeg" class="img-responsive"
+                alt="">
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img11.jpeg" class="img-responsive"
+                alt="">
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img2.jpeg"img-responsive" alt="">
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img3.jpeg"
+                class="img-responsive" alt="">
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img10.jpeg"
+                class="img-responsive" alt="">
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
+                img-responsive" alt="">
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img6.jpeg"
+                class="img-responsive" alt="">
+              <p></p>
+            </div>
+            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
               img-responsive" alt="">
             <p></p>
+            </div>
           </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img6.jpeg"
-              class="img-responsive" alt="">
-            <p></p>
-          </div>
-          <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
-            img-responsive" alt="">
-          <p></p>
-        </div>
-        </div>
+      </div>
         
         
 
         <div class="col-xs-12 text-center">
-          <img src="../assets/images/img/Church App/img7.jpeg" class="img-responsive" alt="">
+          <img src="../assets/images/img/Church App/img7.jpeg" class="img-responsive" alt=""/>
           <p>Church Member Register Developed App</p>
         </div>
 
 
       </div> <!-- End a-->
 
-      <div class="text-center">
-        <h2 >Technologies</h2>
-        <div>
-          <img src="https://img.shields.io/badge/-Git-333333?style=flat&logo=git" width="80">
-          <img src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github" width="80">       
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60">
-          <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" width="180">
-      </div>
+        <div class="text-center">
+          <h2 >Technologies</h2>
+          <div>
+              <img src="https://img.shields.io/badge/-Git-333333?style=flat&logo=git" width="80">
+              <img src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github" width="80">       
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60">
+              <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" width="180">
+          </div>
+        </div>
     </div>
-    </div>
-  </div>
