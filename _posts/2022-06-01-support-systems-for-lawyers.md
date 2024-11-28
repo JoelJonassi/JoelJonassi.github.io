@@ -29,22 +29,18 @@ The team worked collaboratively, using [GitHub](https://github.com/JoelJonassi/J
 ### Case Management and Documentation
 
 - **View Articles**: Easily view and manage legal articles relevant to the cases at hand.  
-  ![View Articles](../assets/images/JuriTech_Project_v1.1/Artigo_Get.png)
+  <img src="../assets/images/JuriTech_Project_v1.0/Processo-Get.png" class="img-responsive">
 
 - **Create Deadlines**: Add and manage deadlines directly within the system for each case.  
-  ![Create Deadlines](../assets/images/JuriTech_Project_v1.0/Prazo-Create.png)
-
-- **Create and Manage Cases**: The system allows users to create and update case details and track the progress.  
-  ![Create Case](../assets/images/JuriTech_Project_v1.1/Processos_Create.png)  
-  ![Update Case](../assets/images/JuriTech_Project_v1.1/Processos_Update.png)
+  <img src="../assets/images/JuriTech_Project_v1.0/Prazo-Create.png" class="img-responsive">
 
 - **Upload Documents**: Upload case documents directly to the platform for easy access and sharing.  
-  ![Upload Documents](../assets/images/JuriTech_Project_v1.0/uploadDocuments.png)
+  <img src="../assets/images/JuriTech_Project_v1.0/uploadDocuments.png" class="img-responsive">
 
 ### User Interface
 
 The platform features an intuitive user interface with options for seamless login, navigation, and data access.  
-![Login Screen](../assets/images/JuriTech_Project_v1.1/Login.png)
+  <img src="../assets/images/JuriTech_Project_v1.1/Login.png" class="img-responsive">
 
 ## Technologies Used
 

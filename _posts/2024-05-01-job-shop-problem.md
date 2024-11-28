@@ -46,13 +46,8 @@ tags: Kotlin, Android
 
   <div class="text-center">
     <h2 >Technologies</h2>
-    <div>
-      <img src="https://images.shields.io/badge/-Git-333333?style=flat&logo=git" width="80">
-      <img src="https://images.shields.io/badge/-GitHub-333333?style=flat&logo=github" width="80">
+    <div> 
       <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/c/c-plain.svg" width="40"/>
-      <img src="https://images.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript" width="80">
-      <img src="https://images.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5" width="80">
-      <img src="https://images.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6" width="80">
   </div>
 </div>
 </div>

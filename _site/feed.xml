@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-28T21:51:16+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Joel Jonassi</title><entry><title type="html">Integration Architecture to Support IoT Devices in Smart Environments</title><link href="http://localhost:4000/blog/integration-architecture-support-IoT-devices" rel="alternate" type="text/html" title="Integration Architecture to Support IoT Devices in Smart Environments" /><published>2024-06-01T00:00:00+02:00</published><updated>2024-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/integration-architecture-support-IoT-devices</id><content type="html" xml:base="http://localhost:4000/blog/integration-architecture-support-IoT-devices"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” - Benjamin Franklin</i></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-28T22:43:06+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Joel Jonassi</title><entry><title type="html">Integration Architecture to Support IoT Devices in Smart Environments</title><link href="http://localhost:4000/blog/integration-architecture-support-IoT-devices" rel="alternate" type="text/html" title="Integration Architecture to Support IoT Devices in Smart Environments" /><published>2024-06-01T00:00:00+02:00</published><updated>2024-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/integration-architecture-support-IoT-devices</id><content type="html" xml:base="http://localhost:4000/blog/integration-architecture-support-IoT-devices"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” - Benjamin Franklin</i></p>
 
 <div class="section-container">
   <h2>Project Overview</h2>
@@ -81,13 +81,8 @@
 
   <div class="text-center">
     <h2>Technologies</h2>
-    <div>
-      <img src="https://images.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80" />
-      <img src="https://images.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80" />
+    <div> 
       <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/c/c-plain.svg" width="40" />
-      <img src="https://images.shields.io/badge/-JavaScript-333333?style=flat&amp;logo=javascript" width="80" />
-      <img src="https://images.shields.io/badge/-HTML5-333333?style=flat&amp;logo=HTML5" width="80" />
-      <img src="https://images.shields.io/badge/-CSS-333333?style=flat&amp;logo=CSS3&amp;logoColor=1572B6" width="80" />
   </div>
 </div>
 </div>
@@ -629,27 +624,22 @@ In this article, you learned how to load and cache images smoothly while scrolli
 <ul>
   <li>
     <p><strong>View Articles</strong>: Easily view and manage legal articles relevant to the cases at hand.<br />
-<img src="../assets/images/JuriTech_Project_v1.1/Artigo_Get.png" alt="View Articles" /></p>
+<img src="../assets/images/JuriTech_Project_v1.0/Processo-Get.png" class="img-responsive" /></p>
   </li>
   <li>
     <p><strong>Create Deadlines</strong>: Add and manage deadlines directly within the system for each case.<br />
-<img src="../assets/images/JuriTech_Project_v1.0/Prazo-Create.png" alt="Create Deadlines" /></p>
-  </li>
-  <li>
-    <p><strong>Create and Manage Cases</strong>: The system allows users to create and update case details and track the progress.<br />
-<img src="../assets/images/JuriTech_Project_v1.1/Processos_Create.png" alt="Create Case" /><br />
-<img src="../assets/images/JuriTech_Project_v1.1/Processos_Update.png" alt="Update Case" /></p>
+<img src="../assets/images/JuriTech_Project_v1.0/Prazo-Create.png" class="img-responsive" /></p>
   </li>
   <li>
     <p><strong>Upload Documents</strong>: Upload case documents directly to the platform for easy access and sharing.<br />
-<img src="../assets/images/JuriTech_Project_v1.0/uploadDocuments.png" alt="Upload Documents" /></p>
+<img src="../assets/images/JuriTech_Project_v1.0/uploadDocuments.png" class="img-responsive" /></p>
   </li>
 </ul>
 
 <h3 id="user-interface">User Interface</h3>
 
 <p>The platform features an intuitive user interface with options for seamless login, navigation, and data access.<br />
-<img src="../assets/images/JuriTech_Project_v1.1/Login.png" alt="Login Screen" /></p>
+  <img src="../assets/images/JuriTech_Project_v1.1/Login.png" class="img-responsive" /></p>
 
 <h2 id="technologies-used">Technologies Used</h2>
 
