@@ -1,94 +1,83 @@
 ---
 layout: post
-title: App to register members present in the church
-description: Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.
-summary:
-tags: Kotlin, Android
+title: Church Member Registration App
+description: This app simplifies member management and attendance tracking for church leaders, integrating Firebase for real-time data storage and offering useful features for administrative tasks.
+summary: The app provides tools for church leaders to register members, track attendance, and manage important events with Firebase for data storage. It helps in improving church organization and communication.
+tags: Kotlin, Android, Firebase
 ---
 
-<i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." Benjamin Franklin</i>
+<i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." — Benjamin Franklin</i>
 
 <div class="section-container">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="">
+        <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="Church App">
         <div class="card-container">
           <div class="text-center">
+            <h2>Church Member Registration App</h2>
           </div>
           <p>
-            A complete tool created for the Adventist Church in São Mateus de Oliveira, Famalicão is the Register
-            Members App. This application is intended to simplify the administration of Sabbath School participants and
-            provides a range of functionalities to improve the effectiveness and involvement of classroom monitors.
+            The Church Member Registration App is designed to simplify the process of managing members and tracking attendance at the Adventist Church in São Mateus de Oliveira, Famalicão. By using Firebase for real-time data storage, this app allows church leaders to efficiently manage church activities, track member presence, and stay connected with the congregation.
+          </p>
+            <p>Check out the full source code, documentation, and reports for the Church Member Registration App on <a href="https://github.com/yourusername/ChurchMemberApp" target="_blank">GitHub</a>.
             </p>
-            With this App Class monitors can:
+     
+          <p>
+            The app is designed with several key features to help church leaders streamline their duties and stay organized:
+          </p>
           <ul>
-            <li>Continually record Sabbath School participants' arrivals and departures.</li>
-            <li>Remind monitors of significant occasions, such birth, marriage, and baptism anniversaries, so they can
-              offer well-wishes on time.</li>
-            <li>Get comprehensive historical reports in PDF format for every trimester with ease.</li>
-            <li>Use the app to conveniently make direct phone calls to members.</li>
+            <li><strong>Member Registration:</strong> Easily create accounts for each church member, with personal details securely stored in Firebase.</li>
+            <li><strong>Attendance Tracking:</strong> Record member attendance and absences during services, creating a complete log of presence for future reference.</li>
+            <li><strong>Anniversary Reminders:</strong> Get notified about key events like birthdays, marriages, and baptisms, ensuring timely celebrations and well-wishes.</li>
+            <li><strong>Reports Generation:</strong> Generate comprehensive historical reports (PDF) for every trimester, allowing church leaders to keep track of attendance and other important data.</li>
+            <li><strong>Direct Communication:</strong> The app allows leaders to make quick phone calls directly to members, ensuring seamless communication.</li>
           </ul>
-          <br>
-          <p>Skills: Kotlin,Firebase, Design System: Applied a logical and consistent design</p>
+          <p><strong>Skills:</strong> Kotlin, Firebase, Android Development, Design Systems</p>
+        </div>
       </div>
     </div>
+
+    <div class="col-md-8 col-md-offset-2 section-container-spacer">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img0.jpeg" class="img-responsive" alt="App Interface">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img11.jpeg" class="img-responsive" alt="App Member List">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img2.jpeg" class="img-responsive" alt="Attendance Screen">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img3.jpeg" class="img-responsive" alt="Anniversary Reminder">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img10.jpeg" class="img-responsive" alt="Call Member Feature">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img5.jpeg" class="img-responsive" alt="Report Generation">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img6.jpeg" class="img-responsive" alt="User Profile">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 text-center">
+      <img src="../assets/images/Church App/img7.jpeg" class="img-responsive" alt="App Dashboard">
+      <p>Church Member Registration App Interface</p>
+    </div>
+
+    <div class="text-center">
+      <h2>Technologies Used</h2>
+      <div>
+        <img src="https://img.shields.io/badge/-Git-333333?style=flat&logo=git" width="80" alt="Git">
+        <img src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github" width="80" alt="GitHub">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60" alt="Kotlin">
+        <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" width="180" alt="Firebase">
+      </div>
+    </div>
+
   </div>
 </div>
-
-<div class="col-md-8 col-md-offset-2 section-container-spacer">
-          <div class="row">
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img0.jpeg" class="img-responsive"
-                alt="">
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img11.jpeg" class="img-responsive"
-                alt="">
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img2.jpeg"img-responsive" alt="">
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img3.jpeg"
-                class="img-responsive" alt="">
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img10.jpeg"
-                class="img-responsive" alt="">
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
-                img-responsive" alt="">
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img6.jpeg"
-                class="img-responsive" alt="">
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
-              img-responsive" alt="">
-            <p></p>
-            </div>
-          </div>
-      </div>
-        
-        
-
-        <div class="col-xs-12 text-center">
-          <img src="../assets/images/img/Church App/img7.jpeg" class="img-responsive" alt=""/>
-          <p>Church Member Register Developed App</p>
-        </div>
-
-
-      </div> <!-- End a-->
-
-        <div class="text-center">
-          <h2 >Technologies</h2>
-          <div>
-              <img src="https://img.shields.io/badge/-Git-333333?style=flat&logo=git" width="80">
-              <img src="https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github" width="80">       
-              <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60">
-              <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" width="180">
-          </div>
-        </div>
-    </div>

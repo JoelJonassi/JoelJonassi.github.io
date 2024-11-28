@@ -13,7 +13,7 @@
 <lastmod>2022-06-01T00:00:00+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/schedule-optimization-copy</loc>
+<loc>http://localhost:4000/blog/schedule-optimization</loc>
 <lastmod>2022-12-01T00:00:00+01:00</lastmod>
 </url>
 <url>
@@ -29,7 +29,7 @@
 <lastmod>2024-01-01T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/blog/VR-Training-Public-Speaking</loc>
+<loc>http://localhost:4000/blog/job-shop-problem</loc>
 <lastmod>2024-05-01T00:00:00+02:00</lastmod>
 </url>
 <url>
@@ -55,6 +55,10 @@
 <url>
 <loc>http://localhost:4000/assets/docs/Joel%20Jonassi%20Resume.pdf</loc>
 <lastmod>2024-11-21T22:28:21+01:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/docs/Joel%20jonassi%20PAP.pdf</loc>
+<lastmod>2024-11-28T20:26:38+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/docs/Paper_CENTERIS_VR.pdf</loc>

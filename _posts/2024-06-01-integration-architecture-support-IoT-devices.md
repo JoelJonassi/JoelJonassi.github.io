@@ -1,50 +1,50 @@
 ---
 layout: post
-title: Integration Architecture to Support IoT Devices in SmartEnviroments
-description: Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.
-summary: 
-tags: Kotlin, Android
+title: Integration Architecture to Support IoT Devices in Smart Environments
+description: Efficiently handling large datasets can prevent memory leaks or app crashes. Techniques such as sliding window algorithms, API pagination, and optimizing image sizes play a key role in robust development.
+tags: Kotlin, Android, IoT
 ---
 
-<i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." Benjamin Franklin</i>
+<i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." - Benjamin Franklin</i>
 
 <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="">
-          <div class="card-container">
-            <div >
-          <p>
-            For my bachelor thesis I developed a mobile application, a RESTFul API and a web platform based on a POC for monitoring animals in mountain areas, enabling tracking and understanding of animal behaviour in mountain areas.This is a system that includes (Web platform, Mobile application, Restful API).
-          </p>
-          <p>
-            This project was developed during the internship at Optimezer, a company that provides consulting services in the it sector, the internship was conducted in the area of IoT and integration architecture.
-          </p>
-          <p>
-            From February to June 2023 I worked on the development of the RESTFul API using C#, PostgreSQL to store data and Mosquitto to communicate with the IoT devices. The mobile aplication was developed using Kotlin and the Web platform using Angular.
-          </p>
-          <p>
-            During the internship I worked on Technical documentation about how to use the API and the mobile application, and I also worked on the development of a web platform to support the mobile application.
-          </p>
-          <p>
-            Feel free to explore the written documents on github under the following link <a href="https://github.com/JoelJonassi/JoeJonassiIPCA2023" target="_blank">Github</a>.
-          </p>
-          <p>
-          The document is written in Portuguese. The developed code is not shared due to the sensitive nature of the project.
-          </p>
+  <h2>Project Overview</h2>
+  <p>
+    For my bachelor thesis, I developed a complete system comprising a mobile application, a RESTful API, and a web platform. The project, a proof of concept (POC), was aimed at monitoring animals in mountain regions to better understand their behaviors.
+  </p>
+  <p>
+    This system was built during my internship at <b>Optmizer</b>, a company specializing in IT consulting, where I worked within the IoT and integration architecture domain.
+  </p>
+
+  <h3>Development Timeline</h3>
+  <ul>
+    <li><b>February - June 2023:</b> Developed the RESTful API using C# and PostgreSQL, integrating Mosquitto for IoT communication.</li>
+    <li>Created a Kotlin-based mobile application for on-the-go monitoring.</li>
+    <li>Designed a web platform using Angular to support and visualize mobile application data.</li>
+  </ul>
+
+  <h3>Technical Contributions</h3>
+  <p>
+    I also prepared detailed documentation, including technical guides for the API and user manuals for the mobile application. This effort ensured usability and maintainability for all developed solutions.
+  </p>
+  
+  <p>
+    Unfortunately, the developed code cannot be shared due to project confidentiality and NDA commitments. However, written materials in Portuguese are available for exploration.
+  </p>
+
+  <p>
+    Explore the documents on <a href="https://github.com/JoelJonassi/JoeJonassiIPCA2023" target="_blank">GitHub</a>.
+  </p>
+
   <div class="text-center">
-      <h2 >Technologies</h2>
-      <div>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original.svg" width="80">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" width="80">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" width="80">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80">
-        <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" width="80">
+    <h2>Technologies Used</h2>
+    <div class="tech-icons">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="60">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin" width="60">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" alt="Angular" width="60">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="60">
+      <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" alt="Android" width="60">
     </div>
   </div>
-
 </div>

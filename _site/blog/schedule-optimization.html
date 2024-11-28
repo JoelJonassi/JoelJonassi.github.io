@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="Joel Jonassi portfolio Website" name="description">
+    <meta name="google" content="notranslate" />
+    <meta content="Joel Jonassi" name="author">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png"> -->
+    <link href="/assets/img/apple-touch-icon.png" rel="icon">
+
+    <link href="/assets/css/icofont.min.css" rel="stylesheet">
+    <link href="/assets/css/boxicons.min.css" rel="stylesheet">
+    <link href="/assets/css/venobox.css" rel="stylesheet">
+    <!--Push Up Box-->
+    <link href="/assets/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="/assets/css/aos.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+
+    <link href="/assets/css/css" rel="stylesheet">
+
+    <!--Progress bar-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+  <!-- jQuery and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
+  <script type="text/javascript">
+      (function() {
+          emailjs.init("0XaqNedQoxfEtp2gT");
+      })();
+  </script>
+
+
+    <title>Schedules Optimization with Intelligent Agents</title>
+
+    <link href="/assets/css/default.css" rel="stylesheet" type="text/css">
+    
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6090964870909817"
+        crossorigin="anonymous"></script>
+
+        <style>
+          .pdf-page {
+              border: 1px solid black;
+              margin-bottom: 20px;
+              margin-left: 1%;
+              margin-right: 2%;
+              width: 100%;
+          }
+      </style>
+</head>
+
+<body class="minimal">
+    <header>
+        <nav class="navbar  navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav ">
+                        <li><a href="/index.html" title="">01 : Home</a></li>
+                        <li><a href="/resume.html" title="">02 : Resume</a></li>
+                        <li><a href="/blog.html" title="">03 : Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="section-container post">
+  <div class="container blog-post">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="template-example">
+          <h1 class="page-title">Schedules Optimization with Intelligent Agents</h1>
+          
+          <time datetime="2022-12-01T00:00:00+01:00">Dec 1, 2022</time>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container blog-post-text">
+    <div class="row">
+      <div class="col-xs-12">
+        <p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” - Benjamin Franklin</i></p>
+
+<h2 id="overview">Overview</h2>
+
+<p>This project was developed as part of an <strong>Artificial Intelligence</strong> course, where we applied intelligent agent algorithms to solve complex scheduling and prediction problems. The project was split into two main parts:</p>
+
+<h3 id="part-1-class-schedule-optimization">Part 1: Class Schedule Optimization</h3>
+
+<p>The goal of this part of the project was to develop an intelligent agent capable of optimizing class schedules to minimize travel to campus and reduce classroom usage, contributing to energy savings and more efficient campus management.</p>
+
+<h4 id="problem-constraints">Problem Constraints:</h4>
+<ul>
+  <li>Classes are 2 hours long and take place on weekdays.</li>
+  <li>Each class has 10 lessons per week, with 1 or 2 of them being online.</li>
+  <li>No class can have more than 3 lessons per day.</li>
+  <li>Online classes cannot be scheduled immediately before or after in-person classes.</li>
+  <li>Up to 2 lessons are allowed in the morning and 2 in the afternoon.</li>
+  <li>Each class requires 2 to 4 lessons in a specific classroom.</li>
+  <li>Classrooms cannot be double-booked.</li>
+  <li>All lessons must start at least at 9 AM and end by 6 PM.</li>
+</ul>
+
+<h4 id="objective">Objective:</h4>
+<p>The objective was to create an agent that finds the best class schedule while minimizing the number of days classes have to commute to campus and reducing the overall need for classrooms.</p>
+
+<h3 id="part-2-housing-data-analysis-and-prediction">Part 2: Housing Data Analysis and Prediction</h3>
+
+<p>For the second part of the project, we analyzed a dataset of California houses to predict key factors about the properties and the residents.</p>
+
+<h4 id="objectives">Objectives:</h4>
+<ul>
+  <li>Predict the distance of a house from the beach.</li>
+  <li>Classify areas with the highest purchasing power.</li>
+  <li>Find patterns between house prices, age, and the income of residents.</li>
+</ul>
+
+<h4 id="methodology">Methodology:</h4>
+<ul>
+  <li><strong>Random Forest</strong> and <strong>Decision Tree Classifier</strong> algorithms were used for classification tasks.</li>
+  <li><strong>K-means clustering</strong> was employed to identify areas with similar characteristics, such as purchasing power.</li>
+  <li><strong>Association rules</strong> were mined using the <strong>Apriori</strong> algorithm to uncover patterns between house prices, age, and income.</li>
+</ul>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>The project involved applying various <strong>Artificial Intelligence</strong> algorithms to real-world problems, showcasing the power of intelligent agents in solving complex scheduling issues and making predictions based on data. The scheduling agent successfully optimized class schedules to reduce campus travel and classroom usage. The housing analysis demonstrated how machine learning techniques could uncover meaningful patterns in data and make informed predictions.</p>
+
+<h3 id="technologies--tools-used">Technologies &amp; Tools Used:</h3>
+<ul>
+  <li><strong>Python</strong>: Primary programming language for AI implementation.</li>
+  <li><strong>Jupyter</strong>: Used for interactive development and testing of AI models.</li>
+  <li><strong>Constraint Satisfaction Problems (CSP)</strong>: Approach used to model the class scheduling problem.</li>
+  <li><strong>Machine Learning Algorithms</strong>: Random Forest, Decision Trees, K-means, Apriori.</li>
+  <li><strong>Git &amp; GitHub</strong>: Version control and collaboration tools used for the project.</li>
+</ul>
+
+<hr />
+
+<h3 id="skills-acquired">Skills Acquired:</h3>
+<ul>
+  <li>Artificial Intelligence techniques, including machine learning algorithms and intelligent agent development.</li>
+  <li>Working with real-world datasets and applying predictive models.</li>
+  <li>Experience with version control and collaborative tools such as Git and GitHub.</li>
+</ul>
+
+<p><a href="https://github.com/JoelJonassi/ArtificialIntelligence15505and19698/tree/main">View the project on GitHub</a></p>
+
+      </div>
+    </div>
+    <nav class="post-nav">
+      
+      <a class="post-nav-item post-nav-prev" href="/blog/support-systems-for-lawyers">
+        <div class="nav-arrow">Previous</div>
+        <span class="post-title">Support Systems for Lawyers</span>
+      </a>
+      
+      
+      <a class="post-nav-item post-nav-next" href="/blog/iot-system">
+        <div class="nav-arrow">Next</div>
+        <span class="post-title">IoT System (Smart Rooms)</span>
+      </a>
+      
+
+    </nav>
+  </div>
+
+</div>
+
+<!-- <section class="post">
+  <div class="flex-row-between">
+    <a href="http://localhost:4000/blog.html">« back</a>
+  </div>
+  
+  <time datetime="2022-12-01T00:00:00+01:00">Dec 1, 2022</time>
+  <h1 class="title">Schedules Optimization with Intelligent Agents</h1>
+  <span class="meta">
+    
+    <a href="http://localhost:4000/tag/Python,">Python,</a>, 
+    <a href="http://localhost:4000/tag/AI,">AI,</a>, 
+    <a href="http://localhost:4000/tag/Machine">Machine</a>, 
+    <a href="http://localhost:4000/tag/Learning,">Learning,</a>, 
+    <a href="http://localhost:4000/tag/Random">Random</a>, 
+    <a href="http://localhost:4000/tag/Forest,">Forest,</a>, 
+    <a href="http://localhost:4000/tag/Clustering,">Clustering,</a>, 
+    <a href="http://localhost:4000/tag/Decision">Decision</a>, 
+    <a href="http://localhost:4000/tag/Trees,">Trees,</a>, 
+    <a href="http://localhost:4000/tag/Jupyter,">Jupyter,</a>, 
+    <a href="http://localhost:4000/tag/GitHub">GitHub</a>
+  </span>
+<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” - Benjamin Franklin</i></p>
+
+<h2 id="overview">Overview</h2>
+
+<p>This project was developed as part of an <strong>Artificial Intelligence</strong> course, where we applied intelligent agent algorithms to solve complex scheduling and prediction problems. The project was split into two main parts:</p>
+
+<h3 id="part-1-class-schedule-optimization">Part 1: Class Schedule Optimization</h3>
+
+<p>The goal of this part of the project was to develop an intelligent agent capable of optimizing class schedules to minimize travel to campus and reduce classroom usage, contributing to energy savings and more efficient campus management.</p>
+
+<h4 id="problem-constraints">Problem Constraints:</h4>
+<ul>
+  <li>Classes are 2 hours long and take place on weekdays.</li>
+  <li>Each class has 10 lessons per week, with 1 or 2 of them being online.</li>
+  <li>No class can have more than 3 lessons per day.</li>
+  <li>Online classes cannot be scheduled immediately before or after in-person classes.</li>
+  <li>Up to 2 lessons are allowed in the morning and 2 in the afternoon.</li>
+  <li>Each class requires 2 to 4 lessons in a specific classroom.</li>
+  <li>Classrooms cannot be double-booked.</li>
+  <li>All lessons must start at least at 9 AM and end by 6 PM.</li>
+</ul>
+
+<h4 id="objective">Objective:</h4>
+<p>The objective was to create an agent that finds the best class schedule while minimizing the number of days classes have to commute to campus and reducing the overall need for classrooms.</p>
+
+<h3 id="part-2-housing-data-analysis-and-prediction">Part 2: Housing Data Analysis and Prediction</h3>
+
+<p>For the second part of the project, we analyzed a dataset of California houses to predict key factors about the properties and the residents.</p>
+
+<h4 id="objectives">Objectives:</h4>
+<ul>
+  <li>Predict the distance of a house from the beach.</li>
+  <li>Classify areas with the highest purchasing power.</li>
+  <li>Find patterns between house prices, age, and the income of residents.</li>
+</ul>
+
+<h4 id="methodology">Methodology:</h4>
+<ul>
+  <li><strong>Random Forest</strong> and <strong>Decision Tree Classifier</strong> algorithms were used for classification tasks.</li>
+  <li><strong>K-means clustering</strong> was employed to identify areas with similar characteristics, such as purchasing power.</li>
+  <li><strong>Association rules</strong> were mined using the <strong>Apriori</strong> algorithm to uncover patterns between house prices, age, and income.</li>
+</ul>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>The project involved applying various <strong>Artificial Intelligence</strong> algorithms to real-world problems, showcasing the power of intelligent agents in solving complex scheduling issues and making predictions based on data. The scheduling agent successfully optimized class schedules to reduce campus travel and classroom usage. The housing analysis demonstrated how machine learning techniques could uncover meaningful patterns in data and make informed predictions.</p>
+
+<h3 id="technologies--tools-used">Technologies &amp; Tools Used:</h3>
+<ul>
+  <li><strong>Python</strong>: Primary programming language for AI implementation.</li>
+  <li><strong>Jupyter</strong>: Used for interactive development and testing of AI models.</li>
+  <li><strong>Constraint Satisfaction Problems (CSP)</strong>: Approach used to model the class scheduling problem.</li>
+  <li><strong>Machine Learning Algorithms</strong>: Random Forest, Decision Trees, K-means, Apriori.</li>
+  <li><strong>Git &amp; GitHub</strong>: Version control and collaboration tools used for the project.</li>
+</ul>
+
+<hr />
+
+<h3 id="skills-acquired">Skills Acquired:</h3>
+<ul>
+  <li>Artificial Intelligence techniques, including machine learning algorithms and intelligent agent development.</li>
+  <li>Working with real-world datasets and applying predictive models.</li>
+  <li>Experience with version control and collaborative tools such as Git and GitHub.</li>
+</ul>
+
+<p><a href="https://github.com/JoelJonassi/ArtificialIntelligence15505and19698/tree/main">View the project on GitHub</a></p>
+
+</section>
+
+<section>
+  <nav class="post-nav">
+    
+    <a class="post-nav-item post-nav-prev" href="/blog/support-systems-for-lawyers">
+      <div class="nav-arrow">Previous</div>
+      <span class="post-title">Support Systems for Lawyers</span>
+    </a>
+    
+    
+    <a class="post-nav-item post-nav-next" href="/blog/iot-system">
+      <div class="nav-arrow">Next</div>
+      <span class="post-title">IoT System (Smart Rooms)</span>
+    </a>
+    
+
+  </nav>
+</section> -->
+
+    <footer class="footer-container text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>&ensp;</p>
+                </div>
+                <div class="col-xs-12">
+                    <p class="text-center">© Joel Jonassi 2024</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script>
+    function setTheme(theme) {
+      if (theme === "dark") {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        window.localStorage.setItem('theme', 'dark');
+        document.getElementById("theme-toggle").classList.add('sun');
+        document.getElementById("theme-toggle").classList.remove('moon');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        window.localStorage.setItem('theme', 'light');
+        document.getElementById("theme-toggle").classList.add('moon');
+        document.getElementById("theme-toggle").classList.remove('sun');
+      }
+    }
+
+    let theme = localStorage.getItem('theme');
+
+    theme = theme || (window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : 'light');
+
+    setTheme(theme);
+
+    function modeSwitcher() {
+      let currentMode = document.documentElement.getAttribute('data-theme');
+
+      if (currentMode === "dark") {
+        setTheme('light');
+      } else {
+        setTheme('dark');
+      }
+    }
+  </script>
+
+
+    <script type="text/javascript" src="/assets/js/main.js"></script>
+</body>
+
+</html>

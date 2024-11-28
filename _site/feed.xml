@@ -1,46 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-27T22:30:53+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Joel Jonassi</title><entry><title type="html">Integration Architecture to Support IoT Devices in SmartEnviroments</title><link href="http://localhost:4000/blog/integration-architecture-support-IoT-devices" rel="alternate" type="text/html" title="Integration Architecture to Support IoT Devices in SmartEnviroments" /><published>2024-06-01T00:00:00+02:00</published><updated>2024-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/integration-architecture-support-IoT-devices</id><content type="html" xml:base="http://localhost:4000/blog/integration-architecture-support-IoT-devices"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-28T21:51:16+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Joel Jonassi</title><entry><title type="html">Integration Architecture to Support IoT Devices in Smart Environments</title><link href="http://localhost:4000/blog/integration-architecture-support-IoT-devices" rel="alternate" type="text/html" title="Integration Architecture to Support IoT Devices in Smart Environments" /><published>2024-06-01T00:00:00+02:00</published><updated>2024-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/integration-architecture-support-IoT-devices</id><content type="html" xml:base="http://localhost:4000/blog/integration-architecture-support-IoT-devices"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” - Benjamin Franklin</i></p>
 
 <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="" />
-          <div class="card-container">
-            <div>
-          <p>
-            For my bachelor thesis I developed a mobile application, a RESTFul API and a web platform based on a POC for monitoring animals in mountain areas, enabling tracking and understanding of animal behaviour in mountain areas.This is a system that includes (Web platform, Mobile application, Restful API).
-          </p>
-          <p>
-            This project was developed during the internship at Optimezer, a company that provides consulting services in the it sector, the internship was conducted in the area of IoT and integration architecture.
-          </p>
-          <p>
-            From February to June 2023 I worked on the development of the RESTFul API using C#, PostgreSQL to store data and Mosquitto to communicate with the IoT devices. The mobile aplication was developed using Kotlin and the Web platform using Angular.
-          </p>
-          <p>
-            During the internship I worked on Technical documentation about how to use the API and the mobile application, and I also worked on the development of a web platform to support the mobile application.
-          </p>
-          <p>
-            Feel free to explore the written documents on github under the following link <a href="https://github.com/JoelJonassi/JoeJonassiIPCA2023" target="_blank">Github</a>.
-          </p>
-          <p>
-          The document is written in Portuguese. The developed code is not shared due to the sensitive nature of the project.
-          </p>
+  <h2>Project Overview</h2>
+  <p>
+    For my bachelor thesis, I developed a complete system comprising a mobile application, a RESTful API, and a web platform. The project, a proof of concept (POC), was aimed at monitoring animals in mountain regions to better understand their behaviors.
+  </p>
+  <p>
+    This system was built during my internship at <b>Optmizer</b>, a company specializing in IT consulting, where I worked within the IoT and integration architecture domain.
+  </p>
+
+  <h3>Development Timeline</h3>
+  <ul>
+    <li><b>February - June 2023:</b> Developed the RESTful API using C# and PostgreSQL, integrating Mosquitto for IoT communication.</li>
+    <li>Created a Kotlin-based mobile application for on-the-go monitoring.</li>
+    <li>Designed a web platform using Angular to support and visualize mobile application data.</li>
+  </ul>
+
+  <h3>Technical Contributions</h3>
+  <p>
+    I also prepared detailed documentation, including technical guides for the API and user manuals for the mobile application. This effort ensured usability and maintainability for all developed solutions.
+  </p>
+  
+  <p>
+    Unfortunately, the developed code cannot be shared due to project confidentiality and NDA commitments. However, written materials in Portuguese are available for exploration.
+  </p>
+
+  <p>
+    Explore the documents on <a href="https://github.com/JoelJonassi/JoeJonassiIPCA2023" target="_blank">GitHub</a>.
+  </p>
+
   <div class="text-center">
-      <h2>Technologies</h2>
-      <div>
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original.svg" width="80" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80" />
-        <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" width="80" />
+    <h2>Technologies Used</h2>
+    <div class="tech-icons">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="C#" width="60" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" alt="Kotlin" width="60" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" alt="Angular" width="60" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60" />
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="60" />
+      <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" alt="Android" width="60" />
     </div>
   </div>
-
-</div>
-</div></div></div></div></div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Job Shop Problem algorithm</title><link href="http://localhost:4000/blog/VR-Training-Public-Speaking" rel="alternate" type="text/html" title="Job Shop Problem algorithm" /><published>2024-05-01T00:00:00+02:00</published><updated>2024-05-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/VR-Training-Public-Speaking</id><content type="html" xml:base="http://localhost:4000/blog/VR-Training-Public-Speaking"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+</div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android," /><category term="IoT" /><summary type="html"><![CDATA[Efficiently handling large datasets can prevent memory leaks or app crashes. Techniques such as sliding window algorithms, API pagination, and optimizing image sizes play a key role in robust development.]]></summary></entry><entry><title type="html">Job Shop Problem algorithm</title><link href="http://localhost:4000/blog/job-shop-problem" rel="alternate" type="text/html" title="Job Shop Problem algorithm" /><published>2024-05-01T00:00:00+02:00</published><updated>2024-05-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/job-shop-problem</id><content type="html" xml:base="http://localhost:4000/blog/job-shop-problem"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
 
 <div class="section-container">
   <div class="container">
@@ -196,525 +196,518 @@ Glide.with(this).load(urlResource).into(imageView)
 <p>Conclusion
 In this article, you learned how to load and cache images smoothly while scrolling in an Android application using the Glide library.</p>
 
-<p>You can find the official documentation of Glide here.</p>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">App to register members present in the church</title><link href="http://localhost:4000/blog/presence-register-app" rel="alternate" type="text/html" title="App to register members present in the church" /><published>2024-01-01T00:00:00+01:00</published><updated>2024-01-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/presence-register-app</id><content type="html" xml:base="http://localhost:4000/blog/presence-register-app"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+<p>You can find the official documentation of Glide here.</p>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Church Member Registration App</title><link href="http://localhost:4000/blog/presence-register-app" rel="alternate" type="text/html" title="Church Member Registration App" /><published>2024-01-01T00:00:00+01:00</published><updated>2024-01-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/presence-register-app</id><content type="html" xml:base="http://localhost:4000/blog/presence-register-app"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” — Benjamin Franklin</i></p>
 
 <div class="section-container">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="" />
+        <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="Church App" />
         <div class="card-container">
           <div class="text-center">
+            <h2>Church Member Registration App</h2>
           </div>
           <p>
-            A complete tool created for the Adventist Church in São Mateus de Oliveira, Famalicão is the Register
-            Members App. This application is intended to simplify the administration of Sabbath School participants and
-            provides a range of functionalities to improve the effectiveness and involvement of classroom monitors.
-            </p>
-            With this App Class monitors can:
-          <ul>
-            <li>Continually record Sabbath School participants' arrivals and departures.</li>
-            <li>Remind monitors of significant occasions, such birth, marriage, and baptism anniversaries, so they can
-              offer well-wishes on time.</li>
-            <li>Get comprehensive historical reports in PDF format for every trimester with ease.</li>
-            <li>Use the app to conveniently make direct phone calls to members.</li>
-          </ul>
-          <br />
-          <p>Skills: Kotlin,Firebase, Design System: Applied a logical and consistent design</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-8 col-md-offset-2 section-container-spacer">
-          <div class="row">
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img0.jpeg" class="img-responsive" alt="" />
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img11.jpeg" class="img-responsive" alt="" />
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6">&lt;img src="../assets/images/img/Church App/img2.jpeg"img-responsive" alt=""&gt;
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img3.jpeg" class="img-responsive" alt="" />
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img10.jpeg" class="img-responsive" alt="" />
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
-                img-responsive" alt="" />
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img6.jpeg" class="img-responsive" alt="" />
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/img/Church App/img5.jpeg" class="
-              img-responsive" alt="" />
-            <p></p>
-            </div>
-          </div>
-      </div>
-        
-        
-
-        <div class="col-xs-12 text-center">
-          <img src="../assets/images/img/Church App/img7.jpeg" class="img-responsive" alt="" />
-          <p>Church Member Register Developed App</p>
-        </div>
-
-
-      </div>
-<p><!-- End a--></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;div class="text-center"&gt;
-      &lt;h2 &gt;Technologies&lt;/h2&gt;
-      &lt;div&gt;
-          &lt;img src="https://img.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80"&gt;
-          &lt;img src="https://img.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80"&gt;       
-          &lt;img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60"&gt;
-          &lt;img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" width="180"&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-</code></pre></div></div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Public Speaking Phobia Mitigation (Project &amp;amp; Research)</title><link href="http://localhost:4000/blog/virtual-reality" rel="alternate" type="text/html" title="Public Speaking Phobia Mitigation (Project &amp;amp; Research)" /><published>2023-03-01T00:00:00+01:00</published><updated>2023-03-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/virtual-reality</id><content type="html" xml:base="http://localhost:4000/blog/virtual-reality"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
-
-<div class="section-container">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="" />
-        <div class="card-container">
-          <div class="text-center">
-            <h1 class="h2">VR Training for Public Speaking</h1>
-          </div>
-          <p>
-            VR Training for Public Speaking helps combat the social phobia of public speaking. This system consists of a
-            virtual reality mobile app and a web platform.
-
-            The VR mobile app introduces the participant to a public speaking simulation and assesses their behavior in
-            real time to encourage them to speak effectively in public and manage negative states.
-
-            The web platform supports a set of services that allow users to enter speeches and scenarios into the system
-            to practice. Scenarios and speeches entered by the administrator are accessible to all users and those
-            entered by a user (non-administrator) are only accessible to that user.
+            The Church Member Registration App is designed to simplify the process of managing members and tracking attendance at the Adventist Church in São Mateus de Oliveira, Famalicão. By using Firebase for real-time data storage, this app allows church leaders to efficiently manage church activities, track member presence, and stay connected with the congregation.
           </p>
-
-          <p>Feel free to explore the project <a href="https://www.erasmuska2.com" target="_blank"> page</a></p>
-
+            <p>Check out the full source code, documentation, and reports for the Church Member Registration App on <a href="https://github.com/yourusername/ChurchMemberApp" target="_blank">GitHub</a>.
+            </p>
+     
+          <p>
+            The app is designed with several key features to help church leaders streamline their duties and stay organized:
+          </p>
+          <ul>
+            <li><strong>Member Registration:</strong> Easily create accounts for each church member, with personal details securely stored in Firebase.</li>
+            <li><strong>Attendance Tracking:</strong> Record member attendance and absences during services, creating a complete log of presence for future reference.</li>
+            <li><strong>Anniversary Reminders:</strong> Get notified about key events like birthdays, marriages, and baptisms, ensuring timely celebrations and well-wishes.</li>
+            <li><strong>Reports Generation:</strong> Generate comprehensive historical reports (PDF) for every trimester, allowing church leaders to keep track of attendance and other important data.</li>
+            <li><strong>Direct Communication:</strong> The app allows leaders to make quick phone calls directly to members, ensuring seamless communication.</li>
+          </ul>
+          <p><strong>Skills:</strong> Kotlin, Firebase, Android Development, Design Systems</p>
         </div>
       </div>
     </div>
-    <!-- Start VR App-->
+
     <div class="col-md-8 col-md-offset-2 section-container-spacer">
       <div class="row">
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/images0.jpeg" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img0.jpeg" class="img-responsive" alt="App Interface" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/images1.jpeg" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img11.jpeg" class="img-responsive" alt="App Member List" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/images2.jpeg" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img2.jpeg" class="img-responsive" alt="Attendance Screen" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/images3.jpeg" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img3.jpeg" class="img-responsive" alt="Anniversary Reminder" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/images4.jpeg" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img10.jpeg" class="img-responsive" alt="Call Member Feature" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/images5.jpeg" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img5.jpeg" class="img-responsive" alt="Report Generation" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/images6" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/Church App/img6.jpeg" class="img-responsive" alt="User Profile" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/images7" class="img-responsive" alt="" />
-          <p></p>
-        </div>
-      </div>
-
-      <div class="col-xs-12 text-center">
-        <img src="../assets/images/Vr App/images9.jpeg" class="img-responsive" alt="" />
-        <p>Virtual reality App</p>
-      </div>
-    </div> <!-- End VR App-->
-
-    <!--Start Web-->
-    <div class="col-md-8 col-md-offset-2 section-container-spacer">
-      <div class="row">
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/login.png" class="img-responsive" alt="" />
-          <p></p>
-        </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/normaluserspeeches.png" class="img-responsive" alt="" />
-          <p></p>
-        </div>
-        <div class="col-xs-12 col-md-6">&lt;img src="../assets/images/Vr App/readSpeech.png class="img-responsive" alt=""&gt;
-          <p></p>
-        </div>
-        <div class="col-xs-12 col-md-6">&lt;img src="../assets/images/Vr App/normaluserscenarios.png class="img-responsive" alt=""&gt;
-          <p></p>
-        </div>
-        <div class="col-xs-12 col-md-6">&lt;img src="../assets/images/Vr App/viewScenarioPictures.png class="img-responsive" alt=""&gt;
-          <p></p>
-        </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/users.png" class="img-responsive" alt="" />
-          <p></p>
-        </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/deleteSpeech.png" class="img-responsive" alt="" />
-          <p></p>
-        </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/images7" class="img-responsive" alt="" />
-          <p></p>
-        </div>
-      </div>
-
-      <div class="col-xs-12 text-center">
-        <img src="../assets/images/Vr App/login.png" class="img-responsive" alt="" />
-        <p>Web Platform</p>
       </div>
     </div>
-<!--End Wen-->
+
+    <div class="col-xs-12 text-center">
+      <img src="../assets/images/Church App/img7.jpeg" class="img-responsive" alt="App Dashboard" />
+      <p>Church Member Registration App Interface</p>
+    </div>
+
     <div class="text-center">
-      <h2>Technologies</h2>
+      <h2>Technologies Used</h2>
       <div>
-        <img src="https://images.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80" />
-        <img src="https://images.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/c/c-plain.svg" width="40" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80" />
-
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original-wordmark.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80" />
-        <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" width="80" />
-
+        <img src="https://img.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80" alt="Git" />
+        <img src="https://img.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80" alt="GitHub" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60" alt="Kotlin" />
+        <img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_168209.png" width="180" alt="Firebase" />
       </div>
+    </div>
 
+  </div>
+</div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android," /><category term="Firebase" /><summary type="html"><![CDATA[This app simplifies member management and attendance tracking for church leaders, integrating Firebase for real-time data storage and offering useful features for administrative tasks.]]></summary></entry><entry><title type="html">Public Speaking Phobia Mitigation (Project &amp;amp; Research)</title><link href="http://localhost:4000/blog/virtual-reality" rel="alternate" type="text/html" title="Public Speaking Phobia Mitigation (Project &amp;amp; Research)" /><published>2023-03-01T00:00:00+01:00</published><updated>2023-03-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/virtual-reality</id><content type="html" xml:base="http://localhost:4000/blog/virtual-reality"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” - Benjamin Franklin</i></p>
+
+<div class="section-container">
+  <h2>Project Overview</h2>
+  <p>
+    As part of an Erasmus+ funded research team spanning five European countries, I contributed to a project aimed at mitigating social phobia in public speaking. The outcome was a system comprising a VR mobile application and a web platform.
+  </p>
+  
+  <p>
+    The project included:
+    <ul>
+      <li>Virtual Reality app for public speaking simulations.</li>
+      <li>A web platform to manage scenarios and speeches.</li>
+    </ul>
+  </p>
+
+  <h3>Research Contribution</h3>
+<p>
+    The findings were published in the Centeris International Conference under the title:
+    <i>"VR Training for Public Speaking"</i>, DOI: 10.1016/j.procs.2024.06.416.001. Co-authored with Luís Ferreira and José Cerqueira, this research highlights virtual reality's role in managing public speaking phobia. 
+</p>
+<p>
+    This work was presented by me at the Centeris Conference, 2023, where I showcased the VR app's capabilities and its effectiveness in mitigating public speaking anxiety.
+</p>
+ 
+  <h3>System Features</h3>
+  <p>
+    <b>VR Mobile Application:</b>
+    <ul>
+      <li>Simulates public speaking scenarios and provides real-time feedback.</li>
+      <li>Encourages participants to overcome anxiety and build confidence.</li>
+    </ul>
+  </p>
+  <p>
+    <b>Web Platform:</b>
+    <ul>
+      <li>Allows users to create and practice speeches in customizable scenarios.</li>
+      <li>Supports shared scenarios for administrators and private options for users.</li>
+    </ul>
+  </p>
+
+</div>
+
+<div class="section-container">
+  <h2>Media Gallery</h2>
+  <div class="gallery row">
+    <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/img0.jpeg" class="img-responsive" alt="VR App Screenshot 1" /></div>
+    <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/img1.jpeg" class="img-responsive" alt="VR App Screenshot 2" /></div>
+    <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/img2.jpeg" class="img-responsive" alt="VR App Screenshot 3" /></div>
+    <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/img3.jpeg" class="img-responsive" alt="VR App Screenshot 4" /></div>
+    <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/img4.jpeg" class="img-responsive" alt="VR App Screenshot 5" /></div>
+    <div class="col-xs-12 col-md-6"><img src="../assets/images/Vr App/img5.jpeg" class="img-responsive" alt="VR App Screenshot 6" /></div>
+    <div class="col-xs-12 text-center">
+      <img src="../assets/images/Vr App/img9.jpeg" class="img-responsive" alt="VR App Overview" />
+      <p><i>Virtual Reality App Overview</i></p>
     </div>
   </div>
 </div>
 
-<div id="pdf-container"> </div>
+<div class="section-container">
+  <h2>Technologies Used</h2>
+  <div class="tech-icons text-center">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" alt="C#" width="60" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original-wordmark.svg" alt="Unity" width="60" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" alt="Angular" width="60" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="60" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="60" />
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" alt="Visual Studio" width="60" />
+    <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" alt="Android" width="60" />
+  </div>
+</div>
+
+<div id="pdf-container">
+  <h2>Research Paper</h2>
+  <p>The full research paper is available in PDF format below:</p>
+</div>
 
 <script>
   const url = '../assets/docs/Paper_CENTERIS_VR.pdf';
   pdfjsLib.getDocument(url).promise.then(function(pdf) {
-            console.log('PDF loaded');
+    for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
+      pdf.getPage(pageNumber).then(function(page) {
+        const scale = 3;
+        const viewport = page.getViewport({ scale: scale });
 
-            // Loop through each page
-            for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber++) {
-                // Fetch each page
-                pdf.getPage(pageNumber).then(function(page) {
-                    var scale = 3
-                    var viewport = page.getViewport({ scale: scale });
+        const canvas = document.createElement('canvas');
+        canvas.className = 'pdf-page';
+        const context = canvas.getContext('2d');
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
 
-                    // Prepare canvas using PDF page dimensions
-                    var canvas = document.createElement('canvas');
-                    canvas.className = 'pdf-page';
-                    var context = canvas.getContext('2d');
-                    canvas.height = viewport.height;
-                    canvas.width = viewport.width;
+        const renderContext = { canvasContext: context, viewport: viewport };
+        page.render(renderContext);
 
-                    // Render PDF page into canvas context
-                    var renderContext = {
-                        canvasContext: context,
-                        viewport: viewport
-                    };
-                    var renderTask = page.render(renderContext);
-                    renderTask.promise.then(function() {
-                        console.log('Page rendered', pageNumber);
-                    });
-
-                    // Append canvas to the container
-                    document.getElementById('pdf-container').appendChild(canvas);
-                });
-            }
-        });
-
-</script>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Iot System (Smart Rooms)</title><link href="http://localhost:4000/blog/iot-system" rel="alternate" type="text/html" title="Iot System (Smart Rooms)" /><published>2023-01-01T00:00:00+01:00</published><updated>2023-01-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/iot-system</id><content type="html" xml:base="http://localhost:4000/blog/iot-system"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+        document.getElementById('pdf-container').appendChild(canvas);
+      });
+    }
+  });
+</script>]]></content><author><name></name></author><category term="VR," /><category term="Unity," /><category term="Public" /><category term="Speaking," /><category term="Phobia" /><category term="Mitigation" /><summary type="html"><![CDATA[A project and research initiative to mitigate public speaking phobia using VR training and web platforms, developed in collaboration with an Erasmus+ team.]]></summary></entry><entry><title type="html">IoT System (Smart Rooms)</title><link href="http://localhost:4000/blog/iot-system" rel="alternate" type="text/html" title="IoT System (Smart Rooms)" /><published>2023-01-01T00:00:00+01:00</published><updated>2023-01-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/iot-system</id><content type="html" xml:base="http://localhost:4000/blog/iot-system"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” — Benjamin Franklin</i></p>
 
 <div class="section-container">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="" />
+        <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="Smart Rooms IoT Project" />
         <div class="card-container">
           <div class="text-center">
+            <h2>Smart Rooms Project Overview</h2>
           </div>
           <p>
-            Project developed within the scope of the Applied Project discipline, to make classrooms more sustainable.
-    
-            During the academic journey, a regular situation among newly arrived students is to seek information at the reception such as: 
-            <br />
-            <br />
-            i) Where the classes of a particular curricular unit are taking place <br />
-            ii) Where a particular room is located, and in certain situations the receptionist has to accompany the place <br />
-            iii) Collect information from the room, which teacher is teaching? what discipline? what is the state of the room (temperature, humidity, harmful gases) <br />
-            iv) Turn off equipment eg. "Air conditioning" often forgotten on, turn off the lights. 
-            <br /><br />
-            It is in this context that the SmartRooms project emerged, combined with the concept of Smart Cities to improve the life of the academic in everyday life, it is a bidirectional system, which allows to control actuators and receive the status of actuators eg. "temperature, humidity, etc." through a mobile application.
-    
+            The Smart Rooms project optimizes classroom environments by integrating IoT (Internet of Things) technology with mobile applications to improve energy efficiency and enhance the learning experience. This system provides real-time monitoring and control of environmental factors such as temperature, humidity, and air quality.
           </p>
-          <br />
           <p>
-           Skills: REST APIs · Kotlin · Raspberry Pi · Embedded Systems · Internet of Things (IoT) · Arduino · ASP.NET · Android Development · Python
+            The project focuses on creating a connected classroom experience where environmental parameters are dynamically controlled and monitored. By leveraging IoT sensors and embedded systems, it allows students, staff, and facility managers to interact with the environment via a mobile application. The app supports easy navigation, offering insights into room conditions and enabling control over critical systems like lighting, HVAC, and ventilation.
           </p>
+             <a href="https://github.com/yourusername/SmartRooms" target="_blank"> GitHub
+      </a>
+          <h3>Key Features:</h3>
+          <ul>
+            <li><strong>Real-Time Monitoring:</strong> Collects and displays environmental data, such as temperature, humidity, and air quality, to optimize the classroom environment.</li>
+            <li><strong>Control Features:</strong> Allows users to control classroom parameters such as air conditioning, lighting, and sensors from a mobile app.</li>
+            <li><strong>Energy Efficiency:</strong> Provides insights to help users make informed decisions, contributing to sustainable energy use in classrooms.</li>
+            <li><strong>User-Friendly Interface:</strong> The mobile app ensures seamless interaction with the system, offering intuitive access to both students and staff.</li>
+          </ul>
+           Check out the full source code, documentation, and reports for the Smart Rooms project on 
+   
+          <h3>Technologies Used:</h3>
+          <ul>
+            <li><strong>Mobile Development:</strong> Kotlin for Android applications, integrating REST APIs for data communication.</li>
+            <li><strong>IoT &amp; Embedded Systems:</strong> Raspberry Pi and Arduino used to interface with environmental sensors and actuators.</li>
+            <li><strong>Server-side &amp; Database:</strong> ASP.NET for backend services, PostgreSQL for storing system data.</li>
+            <li><strong>Programming Languages:</strong> Python for sensor data processing and system integration.</li>
+          </ul>
         </div>
       </div>
-
     </div>
 
     <div class="col-md-8 col-md-offset-2 section-container-spacer text-center">
-      <img src="../assets/images/SmartRooms/RaspberryArduinoConnection.png" class="img-responsive" alt="" />
-      <p>Developed Embedded system</p>
+      <img src="../assets/images/SmartRooms/RaspberryArduinoConnection.png" class="img-responsive" alt="Raspberry Pi and Arduino Setup" />
+      <p>Developed Embedded System for Smart Room Automation</p>
     </div>
+
     <div class="graphic-container">
       <video width="640" height="320" controls="" class="centered">
-      <source src="../assets/images/SmartRooms/SmartRoomsVideo.mp4" type="video/mp4" />
+        <source src="../assets/images/SmartRooms/SmartRoomsVideo.mp4" type="video/mp4" />
       </video>
-
     </div>
-    <p class="text-center">Live Demonstration of the Implemented IoT System in Action</p>
+    <p class="text-center">Live Demonstration of the IoT System in Action</p>
 
-     <!-- Start a-->
-     <div class="col-md-8 col-md-offset-2 section-container-spacer">
+    <div class="col-md-8 col-md-offset-2 section-container-spacer">
       <div class="row">
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Aluno-Login.png" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/SmartRooms/Aluno-Login.png" class="img-responsive" alt="Student Login Screen" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Professor-Dados.png" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/SmartRooms/Professor-Dados.png" class="img-responsive" alt="Professor Data View" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Professor-Detalhe_Sensor.png" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/SmartRooms/Professor-Detalhe_Sensor.png" class="img-responsive" alt="Sensor Detail for Professor" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Professor-Operacoes.png" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/SmartRooms/Professor-Operacoes.png" class="img-responsive" alt="Professor Operations View" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Professor-Unidades_Curriculares.png" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/SmartRooms/Professor-Unidades_Curriculares.png" class="img-responsive" alt="Curricular Units for Professor" />
         </div>
-        <div class="col-xs-12 col-md-6">&lt;img src="../assets/images/SmartRooms/Tecnico-Adicionar_Sensor.png class="img-responsive" alt=""&gt;
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/SmartRooms/Tecnico-Adicionar_Sensor.png" class="img-responsive" alt="Technician Adding Sensor" />
         </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/SmartRooms/Tecnico-Lista_Escolas.png" class="img-responsive" alt="" />
-          <p></p>
+        <div class="col-xs-12 col-md-6">
+          <img src="../assets/images/SmartRooms/Tecnico-Lista_Escolas.png" class="img-responsive" alt="Technician School List" />
         </div>
       </div>
 
       <div class="col-xs-12 text-center">
-        <img src="../assets/images/SmartRooms/Professor-Flow.png" class="img-responsive" alt="" />
-        <p>SmartRooms Developed App</p>
+        <img src="../assets/images/SmartRooms/Professor-Flow.png" class="img-responsive" alt="SmartRooms Application Flow" />
+        <p>SmartRooms Application Flow</p>
       </div>
-
-
-    </div> <!-- End a-->
-
+    </div>
 
     <div class="text-center">
-      <h2>Technologies</h2>
+      <h2>Technologies Used</h2>
       <div>
-        <img src="https://images.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80" />
-        <img src="https://images.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/c/c-plain.svg" width="40" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original.svg" width="80" />
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60" />
-        <img src="https://cdn.worldvectorlogo.com/logos/raspberry-pi.svg" width="60" />
-        <img src="https://e7.pngegg.com/pngimages/758/841/png-clipart-arduino-max-electronic-circuit-pure-data-oscilloscope-raspberry-pi-icons-logo-microcontroller.png" width="60" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80" />
-        <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" width="80" />
-    </div>
-
-  </div>
-
-  </div>
-</div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Schedules making problem (Intelligent Agent)</title><link href="http://localhost:4000/blog/schedule-optimization-copy" rel="alternate" type="text/html" title="Schedules making problem (Intelligent Agent)" /><published>2022-12-01T00:00:00+01:00</published><updated>2022-12-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/schedule-optimization%20copy</id><content type="html" xml:base="http://localhost:4000/blog/schedule-optimization-copy"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
-
-<p>School Project
-Developed and implemented an intelligent agent to optimize class schedules by minimizing travel
-to campus and classroom utilization. The agent aimed to find the most efficient solution that
-reduced the number of days each class had to commute and minimized the overall need forclassrooms, thereby contributing to a reduction in campus travel and the requirement for air
-conditioning.
-SKILLS: Python, Jupyter, Constraint Satisfaction Problems (CSP), GIT and GitHub.</p>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Orange Recognition System</title><link href="http://localhost:4000/blog/orange-image-analyses" rel="alternate" type="text/html" title="Orange Recognition System" /><published>2022-06-01T00:00:00+02:00</published><updated>2022-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/orange-image-analyses</id><content type="html" xml:base="http://localhost:4000/blog/orange-image-analyses"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
-
-<div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="" />
-          <div class="card-container">
-            <div class="text-center">
-            </div>
-            <p>
-              This project was developed as a school assignment for a computer vision subject.
-              <br />
-              The main objective was to develop an algorithm capable of performing the following tasks on a production
-              line of oranges:
-            <ul>
-              <li>Counting the total number of oranges.</li>
-              <li>Calculating the area and perimeter of each orange.</li>
-              <li>Determining the location (bounding box) and center of gravity of each orange.</li>
-              <li>Measuring the orange size (Quality Standards for Citrus Fruits, Calibre).</li>
-              <li>Classifying each orange based on quality standards (Quality Standards for Citrus Fruits, Quality
-                Feature, Classification).</li>
-            </ul>
-            The project was implemented in C, emphasizing manual algorithm development for image manipulation instead of
-            relying on existing libraries.
-            <br />
-            It was part of a university project in the field of Computer Vision, aimed at understanding and implementing
-            fundamental image processing algorithms.
-            </p>
-
-          </div>
-        </div>
-        <div class="col-md-8 col-md-offset-2 section-container-spacer">
-          <div class="row">
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/Orange/frame1.png" class="img-responsive" alt="" />
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/Orange/frame2.png" class="img-responsive" alt="" />
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/Orange/frame3.png" class="img-responsive" alt="" />
-              <p></p>
-            </div>
-            <div class="col-xs-12 col-md-6"><img src="../assets/images/Orange/frame7.png" class="img-responsive" alt="" />
-              <p></p>
-            </div>
-        </div>
-
-          <div class="col-xs-12 text-center">
-            <img src="../assets/images/Orange/frame8.png" class="img-responsive" alt="" />
-            <p>Identify the oranges and separate them from the other fruit</p>
-          </div>
-          <br />
-        </div>
-
-      </div>
-
-      <div class="text-center">
-        <h2>Technologies</h2>
-        <div>
-          <img src="https://images.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80" />
-          <img src="https://images.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80" />
-          <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" width="80" />
-          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/c/c-plain.svg" width="40" alt="C Language" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80" alt="C#" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/python/python-original.svg" width="80" alt="Python" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="60" alt="Kotlin" />
+        <img src="https://cdn.worldvectorlogo.com/logos/raspberry-pi.svg" width="60" alt="Raspberry Pi" />
+        <img src="https://e7.pngegg.com/pngimages/758/841/png-clipart-arduino-max-electronic-circuit-pure-data-oscilloscope-raspberry-pi-icons-logo-microcontroller.png" width="60" alt="Arduino" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80" alt="PostgreSQL" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80" alt="Visual Studio" />
+        <img src="https://png.pngtree.com/png-clipart/20191121/original/pngtree-beautiful-android-logo-vector-glyph-icon-png-image_5149718.jpg" width="80" alt="Android" />
       </div>
     </div>
-    </div>
+</div></div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android," /><category term="IoT," /><category term="Raspberry" /><category term="Pi," /><category term="Embedded" /><category term="Systems," /><category term="Smart" /><category term="Cities" /><summary type="html"><![CDATA[The Smart Rooms project optimizes classroom environments by integrating IoT technology to enhance energy efficiency and improve the learning experience.]]></summary></entry><entry><title type="html">Schedules Optimization with Intelligent Agents</title><link href="http://localhost:4000/blog/schedule-optimization" rel="alternate" type="text/html" title="Schedules Optimization with Intelligent Agents" /><published>2022-12-01T00:00:00+01:00</published><updated>2022-12-01T00:00:00+01:00</updated><id>http://localhost:4000/blog/schedule-optimization</id><content type="html" xml:base="http://localhost:4000/blog/schedule-optimization"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” - Benjamin Franklin</i></p>
+
+<h2 id="overview">Overview</h2>
+
+<p>This project was developed as part of an <strong>Artificial Intelligence</strong> course, where we applied intelligent agent algorithms to solve complex scheduling and prediction problems. The project was split into two main parts:</p>
+
+<h3 id="part-1-class-schedule-optimization">Part 1: Class Schedule Optimization</h3>
+
+<p>The goal of this part of the project was to develop an intelligent agent capable of optimizing class schedules to minimize travel to campus and reduce classroom usage, contributing to energy savings and more efficient campus management.</p>
+
+<h4 id="problem-constraints">Problem Constraints:</h4>
+<ul>
+  <li>Classes are 2 hours long and take place on weekdays.</li>
+  <li>Each class has 10 lessons per week, with 1 or 2 of them being online.</li>
+  <li>No class can have more than 3 lessons per day.</li>
+  <li>Online classes cannot be scheduled immediately before or after in-person classes.</li>
+  <li>Up to 2 lessons are allowed in the morning and 2 in the afternoon.</li>
+  <li>Each class requires 2 to 4 lessons in a specific classroom.</li>
+  <li>Classrooms cannot be double-booked.</li>
+  <li>All lessons must start at least at 9 AM and end by 6 PM.</li>
+</ul>
+
+<h4 id="objective">Objective:</h4>
+<p>The objective was to create an agent that finds the best class schedule while minimizing the number of days classes have to commute to campus and reducing the overall need for classrooms.</p>
+
+<h3 id="part-2-housing-data-analysis-and-prediction">Part 2: Housing Data Analysis and Prediction</h3>
+
+<p>For the second part of the project, we analyzed a dataset of California houses to predict key factors about the properties and the residents.</p>
+
+<h4 id="objectives">Objectives:</h4>
+<ul>
+  <li>Predict the distance of a house from the beach.</li>
+  <li>Classify areas with the highest purchasing power.</li>
+  <li>Find patterns between house prices, age, and the income of residents.</li>
+</ul>
+
+<h4 id="methodology">Methodology:</h4>
+<ul>
+  <li><strong>Random Forest</strong> and <strong>Decision Tree Classifier</strong> algorithms were used for classification tasks.</li>
+  <li><strong>K-means clustering</strong> was employed to identify areas with similar characteristics, such as purchasing power.</li>
+  <li><strong>Association rules</strong> were mined using the <strong>Apriori</strong> algorithm to uncover patterns between house prices, age, and income.</li>
+</ul>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>The project involved applying various <strong>Artificial Intelligence</strong> algorithms to real-world problems, showcasing the power of intelligent agents in solving complex scheduling issues and making predictions based on data. The scheduling agent successfully optimized class schedules to reduce campus travel and classroom usage. The housing analysis demonstrated how machine learning techniques could uncover meaningful patterns in data and make informed predictions.</p>
+
+<h3 id="technologies--tools-used">Technologies &amp; Tools Used:</h3>
+<ul>
+  <li><strong>Python</strong>: Primary programming language for AI implementation.</li>
+  <li><strong>Jupyter</strong>: Used for interactive development and testing of AI models.</li>
+  <li><strong>Constraint Satisfaction Problems (CSP)</strong>: Approach used to model the class scheduling problem.</li>
+  <li><strong>Machine Learning Algorithms</strong>: Random Forest, Decision Trees, K-means, Apriori.</li>
+  <li><strong>Git &amp; GitHub</strong>: Version control and collaboration tools used for the project.</li>
+</ul>
+
+<hr />
+
+<h3 id="skills-acquired">Skills Acquired:</h3>
+<ul>
+  <li>Artificial Intelligence techniques, including machine learning algorithms and intelligent agent development.</li>
+  <li>Working with real-world datasets and applying predictive models.</li>
+  <li>Experience with version control and collaborative tools such as Git and GitHub.</li>
+</ul>
+
+<p><a href="https://github.com/JoelJonassi/ArtificialIntelligence15505and19698/tree/main">View the project on GitHub</a></p>]]></content><author><name></name></author><category term="Python," /><category term="AI," /><category term="Machine" /><category term="Learning," /><category term="Random" /><category term="Forest," /><category term="Clustering," /><category term="Decision" /><category term="Trees," /><category term="Jupyter," /><category term="GitHub" /><summary type="html"><![CDATA[Optimizing class schedules to minimize campus travel and classroom utilization using artificial intelligence.]]></summary></entry><entry><title type="html">Orange Recognition System</title><link href="http://localhost:4000/blog/orange-image-analyses" rel="alternate" type="text/html" title="Orange Recognition System" /><published>2022-06-01T00:00:00+02:00</published><updated>2022-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/orange-image-analyses</id><content type="html" xml:base="http://localhost:4000/blog/orange-image-analyses"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” — Benjamin Franklin</i></p>
+
+<hr />
+
+<h2 id="project-overview">Project Overview</h2>
+<p>This project, developed as part of a <strong>Computer Vision</strong> course assignment, aimed to design an <strong>Orange Recognition System</strong> for automating tasks in a citrus fruit production line. The system focused on:</p>
+
+<ul>
+  <li>Counting the total number of oranges</li>
+  <li>Calculating the area and perimeter of each orange</li>
+  <li>Identifying the location (bounding box) and center of gravity</li>
+  <li>Measuring orange size based on caliber standards (Quality Standards for Citrus Fruits)</li>
+  <li>Classifying oranges by quality (Commission Regulation EEC 379/71)</li>
+</ul>
+
+<h3 id="key-details">Key Details</h3>
+<ul>
+  <li><strong>Language</strong>: C++</li>
+  <li><strong>Focus</strong>: Implementing algorithms manually for image processing without using pre-built libraries</li>
+  <li><strong>Purpose</strong>: To enhance understanding of fundamental computer vision techniques and their industrial applications</li>
+</ul>
+
+<hr />
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Accurate orange identification in complex scenes with other fruits</li>
+  <li>Quality assessment and categorization based on international citrus fruit standards</li>
+  <li>Automated measurements improving efficiency and reducing human error in production lines</li>
+</ul>
+
+<hr />
+
+<h2 id="technologies">Technologies</h2>
+<div>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" width="80" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80" />
+</div>
+
+<h3 id="tools--libraries">Tools &amp; Libraries</h3>
+<ul>
+  <li><strong>C++</strong>: Core programming language</li>
+  <li><strong>OpenCV</strong>: Image processing library (optional for exploration)</li>
+  <li><strong>Git &amp; GitHub</strong>: Version control and project management</li>
+</ul>
+
+<hr />
+
+<h2 id="gallery">Gallery</h2>
+<div class="row">
+  <div class="col-xs-12 col-md-6"><img src="../assets/images/Orange/frame1.png" class="img-responsive" alt="Frame 1" /></div>
+  <div class="col-xs-12 col-md-6"><img src="../assets/images/Orange/frame2.png" class="img-responsive" alt="Frame 2" /></div>
+  <div class="col-xs-12 col-md-6"><img src="../assets/images/Orange/frame3.png" class="img-responsive" alt="Frame 3" /></div>
+  <div class="col-xs-12 col-md-6"><img src="../assets/images/Orange/frame7.png" class="img-responsive" alt="Frame 7" /></div>
+  <div class="col-xs-12 text-center">
+    <img src="../assets/images/Orange/frame8.png" class="img-responsive" alt="Frame 8" />
+    <p>Orange identification and segregation</p>
   </div>
+</div>
 
-<p>Developed an algorithm for accurately identifying and analyzing oranges among other fruits on a
-production line. The system counted the total number of oranges, measured their area and
-perimeter, determined their location and center of gravity, assessed their quality based on caliber
-standards (Commission Regulation EEC 379/71 of February 19, 1971), and categorized them
-according to quality features. This automated solution enhanced efficiency and quality control in
-citrus fruit processing.
-SKILLS: C++, OpenCV, GIT and Github.</p>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Support systems for lawyers</title><link href="http://localhost:4000/blog/support-systems-for-lawyers" rel="alternate" type="text/html" title="Support systems for lawyers" /><published>2022-06-01T00:00:00+02:00</published><updated>2022-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/support-systems-for-lawyers</id><content type="html" xml:base="http://localhost:4000/blog/support-systems-for-lawyers"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+<hr />
 
-<div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <img src="../assets/images/work001-01.jpg" class="img-responsive" alt="" />
-          <div class="card-container">
-            <div class="text-center">
+<h2 id="skills-developed">Skills Developed</h2>
+<ul>
+  <li><strong>Algorithm Design</strong>: Developed custom algorithms for object detection and feature extraction</li>
+  <li><strong>Image Processing</strong>: Applied techniques to calculate geometric properties and classify objects</li>
+  <li><strong>C++ Expertise</strong>: Gained deeper knowledge of manual coding for performance-critical applications</li>
+  <li><strong>Version Control</strong>: Used Git and GitHub to manage project changes and collaborate effectively</li>
+</ul>
 
-            </div>
+<hr />
 
-<p>
-    The platform is designed to assist lawyers in organizing their cases in compliance with government regulations. Legal
-    processes often have strict deadlines, and managing these manually can be challenging. This web platform was
-    developed to automate and streamline the management of legal processes, ensuring timely compliance and
-    efficient case management.</p> <br />
+<h2 id="outcome">Outcome</h2>
+<p>This project provided an effective solution for automating quality control in citrus fruit processing. By manually developing algorithms, it highlighted the importance of a deep understanding of computer vision fundamentals and their industrial applications.</p>]]></content><author><name></name></author><category term="C++," /><category term="Computer" /><category term="Vision" /><summary type="html"><![CDATA[Leveraging computer vision techniques to automate the identification and quality control of oranges on a production line]]></summary></entry><entry><title type="html">Support Systems for Lawyers</title><link href="http://localhost:4000/blog/support-systems-for-lawyers" rel="alternate" type="text/html" title="Support Systems for Lawyers" /><published>2022-06-01T00:00:00+02:00</published><updated>2022-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/support-systems-for-lawyers</id><content type="html" xml:base="http://localhost:4000/blog/support-systems-for-lawyers"><![CDATA[<p><i>&gt; “Automation applied to an efficient operation will magnify the efficiency. Automation applied to an inefficient operation will magnify the inefficiency.” — Bill Gates</i></p>
 
-  The project has two versions:
-  <ul>
-    Version 1: Developed using pure JavaScript.<br />
-    Version 2: Enhanced and redeveloped using Angular for better performance and scalability.
-  </ul>
+<h2 id="overview">Overview</h2>
 
+<p>The Support System for Lawyers is a web platform created as part of a collaborative project, aimed at streamlining legal case management. The platform automates critical legal tasks and helps lawyers comply with strict government deadlines. By integrating advanced features like case management, document tracking, and deadline monitoring, this system minimizes human error and optimizes the efficiency of legal operations.</p>
 
-  <p>
-    Below, you can see screenshots of the developed application. Feel free to explore the source code on <a href="https://github.com/JoelJonassi/JuriTechRESTFullAPIandWeb" target="_blank">GitHub</a>.
-  </p>
-  <blockquote>
-    <p style="font-size: 0.3em;">"Automation applied to an efficient operation will magnify the efficiency.
-      Automation applied to an inefficient operation will magnify the inefficiency.”</p>
-    <small class="pull-right" style="font-size: 0.3em;">Bill Gates</small>
-  </blockquote>
+<h2 id="project-versions">Project Versions</h2>
 
+<p>The project was developed in two versions:</p>
+<ul>
+  <li><strong>Version 1:</strong> Built with pure JavaScript, focusing on foundational functionality.</li>
+  <li><strong>Version 2:</strong> Rewritten using Angular for enhanced performance, scalability, and maintainability.</li>
+</ul>
 
+<p>This platform integrates <strong>PostgreSQL</strong> as the database solution, providing secure and reliable storage for all case-related data.</p>
 
-<div class="col-md-8 col-md-offset-2 section-container-spacer">
-    <div class="row">
+<h2 id="collaboration-and-tools">Collaboration and Tools</h2>
 
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/JuriTech_Project_v1.1/Artigo_Get.png" class="img-fluid" alt="" />
-            <p>Show Articles</p>
-        </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/JuriTech_Project_v1.0/Prazo-Create.png" class=" img-fluid" alt="" />
-            <p></p>
-            </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/JuriTech_Project_v1.1/Login.png" class="img-fluid" alt="" />
-            <p></p>
-            </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/JuriTech_Project_v1.1/Processos_Create .png" class="img-fluid" alt="" />
-            <p></p>
-            </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/JuriTech_Project_v1.1/Processos_Get.png" class="img-fluid" alt="" />
-            <p></p>
-            </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/JuriTech_Project_v1.1/Processos_Update.png" class="img-fluid" alt="" />
-            <p></p>
-            </div>
-        <div class="col-xs-12 col-md-6"><img src="../assets/images/JuriTech_Project_v1.0/uploadDocuments.png" lass="img-fluid" alt="" /> 
-            <p></p>
-            </div>
+<p>The team worked collaboratively, using <a href="https://github.com/JoelJonassi/JuriTechRESTFullAPIandWeb">GitHub</a> for version control and project management through <strong>Jira</strong>, applying Agile methodologies to ensure iterative development and continuous improvement.</p>
 
+<h2 id="features--screenshots">Features &amp; Screenshots</h2>
 
-        </div>
-        </div>
+<h3 id="case-management-and-documentation">Case Management and Documentation</h3>
 
+<ul>
+  <li>
+    <p><strong>View Articles</strong>: Easily view and manage legal articles relevant to the cases at hand.<br />
+<img src="../assets/images/JuriTech_Project_v1.1/Artigo_Get.png" alt="View Articles" /></p>
+  </li>
+  <li>
+    <p><strong>Create Deadlines</strong>: Add and manage deadlines directly within the system for each case.<br />
+<img src="../assets/images/JuriTech_Project_v1.0/Prazo-Create.png" alt="Create Deadlines" /></p>
+  </li>
+  <li>
+    <p><strong>Create and Manage Cases</strong>: The system allows users to create and update case details and track the progress.<br />
+<img src="../assets/images/JuriTech_Project_v1.1/Processos_Create.png" alt="Create Case" /><br />
+<img src="../assets/images/JuriTech_Project_v1.1/Processos_Update.png" alt="Update Case" /></p>
+  </li>
+  <li>
+    <p><strong>Upload Documents</strong>: Upload case documents directly to the platform for easy access and sharing.<br />
+<img src="../assets/images/JuriTech_Project_v1.0/uploadDocuments.png" alt="Upload Documents" /></p>
+  </li>
+</ul>
 
+<h3 id="user-interface">User Interface</h3>
 
-        <div class="col-xs-12">
-            <img src="../assets/images/JuriTech_Project_v1.1/Login.png" class="img-responsive" alt="" />
-        </div>
+<p>The platform features an intuitive user interface with options for seamless login, navigation, and data access.<br />
+<img src="../assets/images/JuriTech_Project_v1.1/Login.png" alt="Login Screen" /></p>
 
+<h2 id="technologies-used">Technologies Used</h2>
 
-        </div>
-    </div>
+<p>The following technologies were used to build and deploy the Support System for Lawyers:</p>
 
+<ul>
+  <li><strong>C#</strong>: The primary programming language used for backend logic.</li>
+  <li><strong>Angular</strong>: Framework used for frontend development, ensuring a responsive and scalable UI.</li>
+  <li><strong>PostgreSQL</strong>: Used for secure and reliable data storage.</li>
+  <li><strong>Bootstrap</strong>: For responsive design and UI components.</li>
+  <li><strong>Visual Studio</strong>: The IDE used for development.</li>
+</ul>
 
-    <div class="text-center">
-      <h2>Technologies</h2>
-      <div>
-        <img src="https://images.shields.io/badge/-Git-333333?style=flat&amp;logo=git" width="80" />
-        <img src="https://images.shields.io/badge/-GitHub-333333?style=flat&amp;logo=github" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80" />
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80" />
-        
-    </div>
-      
-    </div>
-  
-    
-  
-  </div>
+<h3 id="technology-icons">Technology Icons</h3>
+<div>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/csharp/csharp-original.svg" width="80" alt="C#" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg" width="80" alt="Angular" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" width="80" alt="Bootstrap" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="80" alt="PostgreSQL" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="80" alt="Visual Studio" />
+</div>
 
-  </div>
-</div>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry><entry><title type="html">Traffic Light System</title><link href="http://localhost:4000/blog/traffic-light-system" rel="alternate" type="text/html" title="Traffic Light System" /><published>2018-06-01T00:00:00+02:00</published><updated>2018-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/traffic-light-system</id><content type="html" xml:base="http://localhost:4000/blog/traffic-light-system"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” Benjamin Franklin</i></p>
+<h2 id="conclusion">Conclusion</h2>
 
-<p>The Traffic Light System project (implemented in Ribeirão at the Road Education School developed
-within the scope of the Professional Aptitude Test of the Electronics, Automation and Control
-Technician course at the Cior Professional School) has as its central objective to educate children
-for citizenship on the roads, teaching them, in a playful way, the importance of traffic rules.
-SKILLS: Electronic Soldering, Embedded System, Arduino.</p>]]></content><author><name></name></author><category term="Kotlin," /><category term="Android" /><summary type="html"><![CDATA[Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.]]></summary></entry></feed>
+<p>The Support System for Lawyers is designed to improve efficiency in legal practice by automating routine tasks and providing an easy-to-use interface for managing legal cases. The use of <strong>Angular</strong>, <strong>C#</strong>, and <strong>PostgreSQL</strong> ensures a scalable, secure, and high-performance system, while Agile development principles and collaboration tools like <strong>GitHub</strong> and <strong>Jira</strong> helped the team work efficiently throughout the project.</p>]]></content><author><name></name></author><category term="C#," /><category term="PostgreSQL," /><category term="Angular," /><category term="GitHub," /><category term="Agile," /><category term="Jira" /><summary type="html"><![CDATA[A web platform designed to assist lawyers in managing legal cases efficiently, ensuring compliance with government regulations, and automating critical tasks to save time and reduce human error.]]></summary></entry><entry><title type="html">Traffic Light System</title><link href="http://localhost:4000/blog/traffic-light-system" rel="alternate" type="text/html" title="Traffic Light System" /><published>2018-06-01T00:00:00+02:00</published><updated>2018-06-01T00:00:00+02:00</updated><id>http://localhost:4000/blog/traffic-light-system</id><content type="html" xml:base="http://localhost:4000/blog/traffic-light-system"><![CDATA[<p><i>“Tell me and I forget. Teach me and I remember. Involve me and I learn.” – Benjamin Franklin</i></p>
+
+<h3 id="about-the-project"><strong>About the Project</strong></h3>
+
+<p>This project was developed in 2018 as part of the <strong>Professional Aptitude Test</strong> for the <strong>Electronics, Automation, and Control Technician course</strong> at <strong>Cior Professional School</strong>. The aim was to create an engaging, educational tool to teach children the importance of traffic rules and promote good citizenship on the roads. The project was implemented at the <strong>Road Education School in Ribeirão</strong>.</p>
+
+<p>I contributed to this initiative by designing and implementing a <strong>Traffic Light System</strong> using <strong>Arduino</strong> and embedded systems. The system controlled traffic signals, creating a realistic and interactive experience tailored to children’s perspectives. Additionally, I participated in the <strong>installation of the system’s infrastructure</strong>, which involved electrical work to ensure proper setup and functionality.</p>
+
+<hr />
+
+<h3 id="objectives"><strong>Objectives</strong></h3>
+<ul>
+  <li>Educate children about the significance of traffic rules in a playful and practical way.</li>
+  <li>Foster awareness of road safety and citizenship from an early age.</li>
+  <li>Provide a hands-on learning environment at the Road Education School.</li>
+</ul>
+
+<hr />
+
+<h3 id="skills--technologies"><strong>Skills &amp; Technologies</strong></h3>
+<ul>
+  <li><strong>Electronic Soldering</strong>: Assembling and integrating hardware components.</li>
+  <li><strong>Embedded Systems</strong>: Programming and controlling devices using Arduino.</li>
+  <li><strong>Arduino</strong>: Developing the logic and functionality for traffic signal control.</li>
+  <li><strong>Electrical Installation</strong>: Setting up and maintaining the infrastructure for the traffic light system.</li>
+</ul>
+
+<hr />
+
+<h3 id="documentation"><strong>Documentation</strong></h3>
+<p>You can explore the written report for this project, which is available in <strong>Portuguese</strong> on <a href="https://github.com/JoelJonassi/JoelJonassiCIOR2018" target="_blank">GitHub</a>.
+.</p>
+
+<hr />
+
+<h3 id="impact"><strong>Impact</strong></h3>
+<p>This project serves as a practical example of how technology and infrastructure can be leveraged to address real-world problems while fostering education and community engagement.</p>]]></content><author><name></name></author><category term="Arduino," /><category term="Embedded" /><category term="Systems," /><category term="Road" /><category term="Safety," /><category term="Electrical" /><category term="Installation" /><summary type="html"><![CDATA[A project aimed at educating children about road safety through an interactive traffic light system.]]></summary></entry></feed>
