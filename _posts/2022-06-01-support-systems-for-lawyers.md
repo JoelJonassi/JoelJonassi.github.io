@@ -6,7 +6,7 @@ summary: A collaborative development project aimed at simplifying legal case man
 tags: C#, PostgreSQL, Angular, GitHub, Agile, Jira
 ---
 
-<i>> "Automation applied to an efficient operation will magnify the efficiency. Automation applied to an inefficient operation will magnify the inefficiency." — Bill Gates</i>
+<i>"Automation applied to an efficient operation will magnify the efficiency. Automation applied to an inefficient operation will magnify the inefficiency." — Bill Gates</i>
 
 ## Overview
 
