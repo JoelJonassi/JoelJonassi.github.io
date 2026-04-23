@@ -449,9 +449,8 @@
             <div class="desktop-nav" id="nav-links">
                 <a href="#home" onclick="closeMenu()">01 : Home</a>
                 <a href="#about" onclick="closeMenu()">02 : About</a>
-                <a href="#skills" onclick="closeMenu()">03 : Skills</a>
-                <a href="#resume" onclick="closeMenu()">04 : Resume</a>
-                <a href="#projects" onclick="closeMenu()">05 : Projects</a>
+                <a href="#resume" onclick="closeMenu()">03 : Resume</a>
+                <a href="#projects" onclick="closeMenu()">04 : Projects</a>
             </div>
             <button class="theme-btn" id="theme-btn" onclick="modeSwitcher()" title="Toggle theme">
                 <i class="bi bi-moon"></i>
@@ -463,9 +462,8 @@
     <div class="mobile-menu" id="mobile-menu">
         <a href="#home" onclick="closeMenu()">01 : Home</a>
         <a href="#about" onclick="closeMenu()">02 : About</a>
-        <a href="#skills" onclick="closeMenu()">03 : Skills</a>
-        <a href="#resume" onclick="closeMenu()">04 : Resume</a>
-        <a href="#projects" onclick="closeMenu()">05 : Projects</a>
+        <a href="#resume" onclick="closeMenu()">03 : Resume</a>
+        <a href="#projects" onclick="closeMenu()">04 : Projects</a>
     </div>
 
     <!-- Mobile Bottom Navigation -->
@@ -477,10 +475,6 @@
         <a href="#about" class="bottom-nav-item" data-section="about">
             <i class="bi bi-person"></i>
             <span>About</span>
-        </a>
-        <a href="#skills" class="bottom-nav-item" data-section="skills">
-            <i class="bi bi-code-slash"></i>
-            <span>Skills</span>
         </a>
         <a href="#resume" class="bottom-nav-item" data-section="resume">
             <i class="bi bi-file-text"></i>
@@ -554,7 +548,7 @@
 
     // Scroll Spy
     function updateActiveNav() {
-        const sections = ['home', 'about', 'skills', 'resume', 'projects'];
+        const sections = ['home', 'about', 'resume', 'projects'];
         const navLinks = document.querySelectorAll('.desktop-nav a, .bottom-nav-item');
         
         let current = '';
