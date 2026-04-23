@@ -25,7 +25,7 @@ layout: default
       {% if page.previous %}
       <a class="post-nav-item post-nav-prev" href="{{ page.previous | relative_url }}">
         <div class="nav-arrow">Previous</div>
-        <span class="post-title">{{ page.previous.title }}</span>
+        <span class="post-title">{{ page.previous.title | truncate: 40, "..." }}</span>
       </a>
       {% else %}
       <a class="post-nav-item post-nav-prev"></a>
@@ -33,7 +33,7 @@ layout: default
       {% if page.next %}
       <a class="post-nav-item post-nav-next" href="{{ page.next | relative_url }}">
         <div class="nav-arrow">Next</div>
-        <span class="post-title">{{ page.next.title }}</span>
+        <span class="post-title">{{ page.next.title | truncate: 40, "..." }}</span>
       </a>
       {% endif %}
 

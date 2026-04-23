@@ -9,42 +9,31 @@
     <meta name="google" content="notranslate" />
     <meta content="Joel Jonassi" name="author">
 
-    <!-- Disable tap highlight on IE -->
     <meta name="msapplication-tap-highlight" content="no">
-
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png"> -->
     <link href="/assets/img/apple-touch-icon.png" rel="icon">
 
     <link href="/assets/css/icofont.min.css" rel="stylesheet">
     <link href="/assets/css/boxicons.min.css" rel="stylesheet">
     <link href="/assets/css/venobox.css" rel="stylesheet">
-    <!--Push Up Box-->
     <link href="/assets/css/owl.carousel.min.css" rel="stylesheet">
     <link href="/assets/css/aos.css" rel="stylesheet">
     <link href="/assets/css/style.css" rel="stylesheet">
 
-
     <link href="/assets/css/css" rel="stylesheet">
 
-    <!--Progress bar-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-  <!-- jQuery and Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
-  <script type="text/javascript">
-      (function() {
-          emailjs.init("0XaqNedQoxfEtp2gT");
-      })();
-  </script>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.8.335/pdf.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("0XaqNedQoxfEtp2gT");
+        })();
+    </script>
 
     <title>{{page.title}}</title>
 
@@ -56,20 +45,190 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6090964870909817"
         crossorigin="anonymous"></script>
 
-        <style>
-          .pdf-page {
-              border: 1px solid black;
-              margin-bottom: 20px;
-              margin-left: 1%;
-              margin-right: 2%;
-              width: 100%;
-          }
-      </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8f9fa;
+            --text-primary: #1a1a1a;
+            --text-secondary: #555555;
+            --accent: #0563bb;
+            --accent-light: #f0f4f8;
+            --border-color: #e5e5e5;
+            --card-bg: #ffffff;
+            --nav-bg: rgba(255, 255, 255, 0.95);
+            --shadow: 0 2px 8px rgba(0,0,0,0.08);
+            --shadow-hover: 0 4px 16px rgba(0,0,0,0.12);
+        }
+
+        [data-theme="dark"] {
+            --bg-primary: #0a0a0a;
+            --bg-secondary: #141414;
+            --text-primary: #e8e8e8;
+            --text-secondary: #a0a0a0;
+            --accent: #4d9fff;
+            --accent-light: #1a2a3a;
+            --border-color: #2a2a2a;
+            --card-bg: #121212;
+            --nav-bg: rgba(10, 10, 10, 0.95);
+            --shadow: 0 2px 8px rgba(0,0,0,0.3);
+            --shadow-hover: 0 4px 16px rgba(0,0,0,0.4);
+        }
+
+        * {
+            transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.7;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        .template-example p {
+            color: var(--text-secondary);
+        }
+
+        .hero-full-container {
+            background-color: var(--bg-secondary);
+        }
+
+        .background-image-container {
+            background-color: var(--bg-secondary);
+        }
+
+        .footer-container {
+            background-color: var(--bg-secondary);
+        }
+
+        .footer-container p {
+            color: var(--text-secondary);
+        }
+
+        .navbar {
+            background-color: var(--nav-bg) !important;
+            box-shadow: var(--shadow);
+        }
+
+        .navbar-inverse {
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .nav > li > a {
+            color: var(--text-secondary) !important;
+            font-weight: 500;
+        }
+
+        .nav > li > a:hover {
+            color: var(--accent) !important;
+            background-color: transparent !important;
+        }
+
+        .section-container {
+            padding: 60px 0;
+        }
+
+        .posts ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .posts li {
+            margin-bottom: 16px;
+            padding: 16px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .posts li:hover {
+            box-shadow: var(--shadow-hover);
+            transform: translateY(-2px);
+        }
+
+        .posts a {
+            color: var(--text-primary);
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        .posts a:hover {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .posts time {
+            color: var(--text-secondary);
+            font-size: 13px;
+        }
+
+        .resume-item {
+            padding: 20px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .theme-toggle {
+            cursor: pointer;
+            font-size: 20px;
+            padding: 8px 12px;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .theme-toggle:hover {
+            background: var(--bg-secondary);
+            color: var(--accent);
+        }
+
+        .pdf-page {
+            border: 1px solid var(--border-color);
+            margin-bottom: 20px;
+            margin-left: 1%;
+            margin-right: 2%;
+            width: 100%;
+            background: var(--card-bg);
+        }
+
+        @media (max-width: 768px) {
+            .section-container {
+                padding: 40px 0;
+            }
+        }
+    </style>
 </head>
 
 <body class="minimal">
     <header>
-        <nav class="navbar  navbar-fixed-top navbar-inverse">
+        <nav class="navbar navbar-fixed-top navbar-inverse">
             <div class="container">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#navbar-collapse" aria-expanded="false">
@@ -80,10 +239,15 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav ">
+                    <ul class="nav navbar-nav">
                         <li><a href="{{ site.baseurl }}/index.html" title="">01 : Home</a></li>
                         <li><a href="{{ site.baseurl }}/resume.html" title="">02 : Resume</a></li>
                         <li><a href="{{ site.baseurl }}/blog.html" title="">03 : Blog</a></li>
+                        <li style="margin-left: 20px;">
+                            <button class="theme-toggle" id="theme-toggle" onclick="modeSwitcher()" title="Toggle theme">
+                                <i class="bi bi-moon"></i>
+                            </button>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -112,13 +276,11 @@
       if (theme === "dark") {
         document.documentElement.setAttribute('data-theme', 'dark');
         window.localStorage.setItem('theme', 'dark');
-        document.getElementById("theme-toggle").classList.add('sun');
-        document.getElementById("theme-toggle").classList.remove('moon');
+        document.getElementById("theme-toggle").innerHTML = '<i class="bi bi-sun"></i>';
       } else {
         document.documentElement.setAttribute('data-theme', 'light');
         window.localStorage.setItem('theme', 'light');
-        document.getElementById("theme-toggle").classList.add('moon');
-        document.getElementById("theme-toggle").classList.remove('sun');
+        document.getElementById("theme-toggle").innerHTML = '<i class="bi bi-moon"></i>';
       }
     }
 

@@ -3,24 +3,260 @@ layout: page
 title: Resume
 ---
 
-
-<!--<div class="text-center">
-    <a href="{{ site.baseurl }}/view_resume.html">
-        <button type="button">View Resume</button>
-    </a>
-    <a href="assets/docs/Joel Jonassi Resume.pdf" download>
-        <button type="button">Download Resume</button>
-    </a>
-
-</div>-->
+<style>
+    .resume-section {
+        margin-bottom: 48px;
+    }
+    
+    .resume-section-title {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 24px;
+        padding-bottom: 12px;
+        border-bottom: 2px solid var(--accent);
+        color: var(--text-primary);
+    }
+    
+    .resume-entry {
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        transition: all 0.3s ease;
+    }
+    
+    .resume-entry:hover {
+        box-shadow: var(--shadow-hover);
+    }
+    
+    .resume-logo {
+        flex-shrink: 0;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .resume-logo img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+    }
+    
+    .resume-content h3 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 0 4px 0;
+        color: var(--text-primary);
+    }
+    
+    .resume-content p {
+        margin: 0;
+        color: var(--text-secondary);
+        font-size: 14px;
+    }
+    
+    @media (max-width: 576px) {
+        .resume-entry {
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .resume-logo {
+            width: 48px;
+            height: 48px;
+        }
+    }
+</style>
 
 <div class="section-container">
     <div class="container">
-        <div class="row resume-row-label">
-            <div class="col-xs-12">
-                <div class="template-example">
-                    <h2 class="template-title-example">Education</h2>
+        <div class="text-center" style="max-width: 600px; margin: 0 auto 48px;">
+            <h1 style="font-size: 36px; margin-bottom: 16px;">Resume</h1>
+            <p style="color: var(--text-secondary);">My professional journey and qualifications.</p>
+        </div>
+
+        <div class="resume-section">
+            <h2 class="resume-section-title">Education</h2>
+            
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/ipvc.jpg" alt="IPVC logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Polytechnic Institute of Viana do Castelo (IPVC)</h3>
+                        <p>Cybersecurity, MSc | Stopped</p>
+                    </div>
                 </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/ipca.png" alt="IPCA logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Cavado and Ave Polytechnic Institute (IPCA)</h3>
+                        <p>Computer Systems Engineer, BSc | 2023</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/cior.png" alt="CIOR logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>CIOR Professional School</h3>
+                        <p>Electronics, Automation and Command Technician | 2018</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/EPS.jpg" alt="Songo Professional logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Songo Professional School</h3>
+                        <p>Winder Electrician | 2014</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="resume-section">
+            <h2 class="resume-section-title">Experience</h2>
+            
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/linovt.png" alt="Linovt logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Linovt</h3>
+                        <p>Software Engineer | Sept 2023 - Current</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/optimizer.jpg" alt="Optimizer logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Optimizer</h3>
+                        <p>Software Engineer Intern | Feb 2023 - Jun 2023</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/erasmusplus.jpg" alt="Erasmus+ logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Erasmus+ (2020-1-FR01-KA226-VET-09412)</h3>
+                        <p>Research Member | Sept 2022 - Jun 2023</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/barreiros, Costa & Sampaio.png" alt="Barreiros logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Barreiros, Costa & Sampaio</h3>
+                        <p>Electrician | Mar 2022 - Jan 2023</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/west_sea.png" alt="West Sea logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>West Sea Shipyard</h3>
+                        <p>Electrician | Feb 2021 - March 2022</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/Forma3D.png" alt="Forma 3D logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Forma 3D</h3>
+                        <p>Polymer Thermoformer | Aug 2018 - Jan 2021</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/mcl_comp.webp" alt="MCL logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>MCL Components Lda</h3>
+                        <p>Electronic Intern | Sept 2022 - Jun 2023</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/Nibble.jpg" alt="Nibble logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Nibble - Engenharia, Lda</h3>
+                        <p>Electronic Intern | Apr 2017 - Jun 2017</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/Sataedu.jpg" alt="Sataedu logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Sataedu</h3>
+                        <p>Electronic Intern | Mar 2016 - Apr 2016</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resume-entry" style="display: block;">
+                <div style="display: flex; gap: 20px;">
+                    <div class="resume-logo">
+                        <img src="../assets/images/HCB.jpg" alt="HCB logo" class="resume-photo">
+                    </div>
+                    <div class="resume-content">
+                        <h3>Hidroelétrica de Cahora Bassa - HCB</h3>
+                        <p>Electrician Intern | Nov 2013 - Feb 2014</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
             </div>
         </div>
         <div class="row resume-row">
