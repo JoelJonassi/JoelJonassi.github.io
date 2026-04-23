@@ -201,7 +201,6 @@
             padding: 0 20px;
             box-shadow: var(--shadow);
             pointer-events: auto;
-            min-width: fit-content;
         }
 
         .custom-nav-left {
@@ -209,7 +208,6 @@
             align-items: center;
             gap: 16px;
             pointer-events: auto;
-            flex-shrink: 0;
         }
 
         .custom-nav-right {
@@ -217,30 +215,23 @@
             align-items: center;
             gap: 8px;
             pointer-events: auto;
-            flex-shrink: 0;
         }
 
-        /* Desktop nav links */
-        .desktop-nav {
-            display: flex;
-            gap: 8px;
-            flex-shrink: 0;
-        }
-
-        .desktop-nav a {
-            padding: 8px 16px;
-            color: var(--text-secondary);
-            font-weight: 500;
+        /* Hamburger button */
+        .hamburger {
+            width: 44px;
+            height: 44px;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            cursor: pointer;
+            background: transparent;
+            border: 1px solid var(--border-color);
             border-radius: 8px;
             transition: all 0.2s ease;
-            white-space: nowrap;
-            flex-shrink: 0;
-        }
-
-        .desktop-nav a:hover {
-            background: var(--bg-secondary);
-            color: var(--accent);
-            text-decoration: none;
+            pointer-events: auto;
         }
 
         .hamburger:hover {
@@ -322,6 +313,26 @@
             text-decoration: none;
         }
 
+        /* Desktop nav links */
+        .desktop-nav {
+            display: flex;
+            gap: 8px;
+        }
+
+        .desktop-nav a {
+            padding: 8px 16px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+        }
+
+        .desktop-nav a:hover {
+            background: var(--bg-secondary);
+            color: var(--accent);
+            text-decoration: none;
+        }
+
         @media (max-width: 768px) {
             .desktop-nav {
                 display: none;
@@ -333,13 +344,6 @@
 
             .section-container {
                 padding: 40px 0;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .desktop-nav a {
-                font-size: 12px;
-                padding: 6px 10px;
             }
         }
 
