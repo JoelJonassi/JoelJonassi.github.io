@@ -296,6 +296,15 @@ title: Joel Jonassi
     .project-card.hidden {
         display: none;
     }
+    
+    .project-hidden {
+        display: none;
+    }
+    
+    /* See More Button */
+    .resume-toggle.expanded i {
+        transform: rotate(180deg);
+    }
 
     @media (max-width: 768px) {
         .hero-content h1 {
@@ -336,14 +345,17 @@ title: Joel Jonassi
             <div class="about-info">
                 <h3>Who I Am</h3>
                 <p>
-                    I am a Software Engineer with a degree from <a href="https://ipca.pt/" target="_blank">Instituto Politécnico do Cávado e do Ave (IPCA)</a>, driven by a passion for creating innovative and impactful technological solutions. My expertise spans mobile and web development, IoT, VR (Unity), and open-source projects.
+                    I am a Computer Systems Engineer. I close the gap between devices, people and software, building things that work in the real world.
                 </p>
                 <br>
-                <p>Currently, I am:</p>
-                <ul>
-                    <li>Developing IoT systems and immersive VR applications.</li>
-                    <li>Expanding my skillset in AI and emerging technologies.</li>
-                    <li>Seeking collaborations in AI, Cybersecurity, and IoT.</li>
+                <p>Things I'm working on / thinking about:</p>
+                <ul style="margin-top: 12px;">
+                    <li>Embedded systems & kernel-level programming</li>
+                    <li>RAG pipelines and AI Agents</li>
+                    <li>ML / DL applied to real problems</li>
+                    <li>Ride-sharing systems with GSM fallback for low-bandwidth areas</li>
+                    <li>Agriculture × technology</li>
+                    <li>Building things that shouldn't exist yet</li>
                 </ul>
             </div>
             
@@ -379,40 +391,61 @@ title: Joel Jonassi
             <p class="section-subtitle">Technologies and tools I work with.</p>
         </div>
         
-        <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; max-width: 900px; margin: 0 auto;">
+        <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; max-width: 900px; margin: 0 auto;">
             <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
-                <h4 style="font-size: 16px; margin-bottom: 12px;">Mobile</h4>
+                <h4 style="font-size: 16px; margin-bottom: 12px;">Mobile Development</h4>
                 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Kotlin</span>
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Android</span>
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Java</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Flutter</span>
                 </div>
             </div>
             
             <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
-                <h4 style="font-size: 16px; margin-bottom: 12px;">Web</h4>
+                <h4 style="font-size: 16px; margin-bottom: 12px;">Web Development</h4>
                 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
-                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">HTML/CSS</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">HTML</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">CSS</span>
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">JavaScript</span>
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Bootstrap</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Jekyll</span>
                 </div>
             </div>
             
             <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
-                <h4 style="font-size: 16px; margin-bottom: 12px;">IoT & Hardware</h4>
+                <h4 style="font-size: 16px; margin-bottom: 12px;">IoT & Embedded</h4>
                 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Arduino</span>
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Raspberry Pi</span>
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">ESP32</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">C/C++</span>
                 </div>
             </div>
             
             <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
-                <h4 style="font-size: 16px; margin-bottom: 12px;">Tools & Other</h4>
+                <h4 style="font-size: 16px; margin-bottom: 12px;">AI & Data Science</h4>
                 <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
-                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Git</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Python</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">TensorFlow</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">OpenCV</span>
+                </div>
+            </div>
+            
+            <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
+                <h4 style="font-size: 16px; margin-bottom: 12px;">Game & VR Development</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Unity</span>
                     <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">C#</span>
+                </div>
+            </div>
+            
+            <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
+                <h4 style="font-size: 16px; margin-bottom: 12px;">Tools & DevOps</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Git</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Docker</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Linux</span>
                 </div>
             </div>
         </div>
@@ -513,7 +546,7 @@ title: Joel Jonassi
         
         <div class="projects-grid" id="projects-container">
             {% for post in site.posts %}
-            <div class="project-card" data-page="{{ forloop.index0 | divided_by: 6 | plus: 1 }}">
+            <div class="project-card{% if forloop.index0 >= 2 %} project-hidden{% endif %}" data-index="{{ forloop.index0 }}">
                 <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
                 <div class="date">{{ post.date | date: "%b %Y" }}</div>
                 <p class="description">{{ post.description }}</p>
@@ -528,9 +561,48 @@ title: Joel Jonassi
             {% endfor %}
         </div>
         
-        <div class="pagination" id="pagination"></div>
+        <div class="text-center">
+            <button class="resume-toggle" id="see-more-btn" onclick="toggleProjects()">
+                <span>See More</span>
+                <i class="bi bi-chevron-down"></i>
+            </button>
+        </div>
     </div>
 </div>
+
+<script>
+    // Projects See More
+    let projectsExpanded = false;
+    const allProjects = document.querySelectorAll('.project-card');
+    const visibleCount = 2;
+    
+    function toggleProjects() {
+        projectsExpanded = !projectsExpanded;
+        const btn = document.getElementById('see-more-btn');
+        const btnText = btn.querySelector('span');
+        
+        allProjects.forEach((project, index) => {
+            if (index >= visibleCount) {
+                if (projectsExpanded) {
+                    project.classList.remove('project-hidden');
+                } else {
+                    project.classList.add('project-hidden');
+                }
+            }
+        });
+        
+        btn.classList.toggle('expanded');
+        btnText.textContent = projectsExpanded ? 'Show Less' : 'See More';
+        
+        if (projectsExpanded) {
+            btn.querySelector('i').classList.add('bi-chevron-up');
+            btn.querySelector('i').classList.remove('bi-chevron-down');
+        } else {
+            btn.querySelector('i').classList.add('bi-chevron-down');
+            btn.querySelector('i').classList.remove('bi-chevron-up');
+        }
+    }
+</script>
 
 <script>
     // Projects Pagination
