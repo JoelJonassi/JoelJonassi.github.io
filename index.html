@@ -195,6 +195,49 @@ title: Joel Jonassi
         margin: 0;
     }
 
+    /* Expandable Resume */
+    .resume-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 20px;
+        background: var(--accent);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-top: 24px;
+        transition: all 0.2s ease;
+    }
+
+    .resume-toggle:hover {
+        opacity: 0.9;
+    }
+
+    .resume-toggle i {
+        transition: transform 0.3s ease;
+    }
+
+    .resume-toggle.expanded i {
+        transform: rotate(180deg);
+    }
+
+    .resume-more {
+        display: none;
+    }
+
+    .resume-more.show {
+        display: block;
+        animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
     /* Nav Active State */
     .nav-links a.active {
         color: var(--accent) !important;
@@ -329,7 +372,7 @@ title: Joel Jonassi
         </div>
         
         <h3 style="font-size: 18px; margin-bottom: 16px; color: var(--text-primary);">Education</h3>
-        <div class="resume-grid">
+        <div class="resume-grid" id="resume-education">
             <div class="resume-card">
                 <div class="logo"><img src="assets/images/ipca.png" alt="IPCA"></div>
                 <div class="info">
@@ -337,7 +380,7 @@ title: Joel Jonassi
                     <p>Computer Systems Engineer, BSc | 2023</p>
                 </div>
             </div>
-            <div class="resume-card">
+            <div class="resume-card resume-more">
                 <div class="logo"><img src="assets/images/cior.png" alt="CIOR"></div>
                 <div class="info">
                     <h4>CIOR Professional School</h4>
@@ -347,7 +390,7 @@ title: Joel Jonassi
         </div>
         
         <h3 style="font-size: 18px; margin: 32px 0 16px; color: var(--text-primary);">Experience</h3>
-        <div class="resume-grid">
+        <div class="resume-grid" id="resume-experience">
             <div class="resume-card">
                 <div class="logo"><img src="assets/images/linovt.png" alt="Linovt"></div>
                 <div class="info">
@@ -355,21 +398,21 @@ title: Joel Jonassi
                     <p>Software Engineer | Sept 2023 - Current</p>
                 </div>
             </div>
-            <div class="resume-card">
+            <div class="resume-card resume-more">
                 <div class="logo"><img src="assets/images/optimizer.jpg" alt="Optimizer"></div>
                 <div class="info">
                     <h4>Optimizer</h4>
                     <p>Software Engineer Intern | Feb 2023 - Jun 2023</p>
                 </div>
             </div>
-            <div class="resume-card">
+            <div class="resume-card resume-more">
                 <div class="logo"><img src="assets/images/erasmusplus.jpg" alt="Erasmus+"></div>
                 <div class="info">
                     <h4>Erasmus+</h4>
                     <p>Research Member | Sept 2022 - Jun 2023</p>
                 </div>
             </div>
-            <div class="resume-card">
+            <div class="resume-card resume-more">
                 <div class="logo"><img src="assets/images/west_sea.png" alt="West Sea"></div>
                 <div class="info">
                     <h4>West Sea Shipyard</h4>
@@ -377,8 +420,32 @@ title: Joel Jonassi
                 </div>
             </div>
         </div>
+        
+        <div class="text-center">
+            <button class="resume-toggle" id="resume-toggle" onclick="toggleResume()">
+                <span>Show More</span>
+                <i class="bi bi-chevron-down"></i>
+            </button>
+        </div>
     </div>
 </div>
+
+<script>
+    let resumeExpanded = false;
+    function toggleResume() {
+        resumeExpanded = !resumeExpanded;
+        const moreItems = document.querySelectorAll('.resume-more');
+        const btn = document.getElementById('resume-toggle');
+        const btnText = btn.querySelector('span');
+        
+        moreItems.forEach(item => {
+            item.classList.toggle('show');
+        });
+        
+        btn.classList.toggle('expanded');
+        btnText.textContent = resumeExpanded ? 'Show Less' : 'Show More';
+    }
+</script>
 
 <!-- Projects Section -->
 <div class="section" id="projects">
