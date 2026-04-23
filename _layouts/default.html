@@ -5,9 +5,27 @@
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width,initial-scale=1" name="viewport">
-    <meta content="Joel Jonassi portfolio Website" name="description">
+    <meta content="Joel Jonassi - Software Engineer portfolio showcasing projects, skills, and experience in mobile development, IoT, and web development." name="description">
     <meta name="google" content="notranslate" />
     <meta content="Joel Jonassi" name="author">
+
+    <!-- SEO -->
+    <title>{{page.title}}</title>
+    <meta name="description" content="Joel Jonassi - Software Engineer specializing in mobile development, IoT, and web technologies.">
+    <meta name="keywords" content="Joel Jonassi, Software Engineer, Mobile Developer, IoT, Portfolio, Android, Kotlin">
+    <meta name="author" content="Joel Jonassi">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Joel Jonassi - Portfolio">
+    <meta property="og:description" content="Software Engineer specializing in mobile development, IoT, and web technologies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://joeljonassi.github.io/">
+    <meta property="og:image" content="https://joeljonassi.github.io/assets/images/background_portfolio.jpg">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Joel Jonassi - Portfolio">
+    <meta name="twitter:description" content="Software Engineer specializing in mobile development, IoT, and web technologies.">
 
     <meta name="msapplication-tap-highlight" content="no">
     <link href="/assets/img/apple-touch-icon.png" rel="icon">
@@ -359,7 +377,60 @@
 
         body {
             padding-top: 60px;
+            padding-bottom: 70px;
             scroll-behavior: smooth;
+        }
+
+        /* Mobile Bottom Navigation */
+        .bottom-nav {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 65px;
+            background: var(--nav-bg);
+            border-top: 1px solid var(--border-color);
+            z-index: 9999;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 8px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+
+        .bottom-nav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            color: var(--text-secondary);
+            font-size: 11px;
+            padding: 8px 12px;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+
+        .bottom-nav-item i {
+            font-size: 20px;
+        }
+
+        .bottom-nav-item.active {
+            color: var(--accent);
+        }
+
+        .bottom-nav-item:hover {
+            background: var(--bg-secondary);
+        }
+
+        @media (max-width: 768px) {
+            .bottom-nav {
+                display: flex;
+            }
+            
+            body {
+                padding-bottom: 70px;
+            }
         }
     </style>
 </head>
@@ -378,8 +449,9 @@
             <div class="desktop-nav" id="nav-links">
                 <a href="#home" onclick="closeMenu()">01 : Home</a>
                 <a href="#about" onclick="closeMenu()">02 : About</a>
-                <a href="#resume" onclick="closeMenu()">03 : Resume</a>
-                <a href="#projects" onclick="closeMenu()">04 : Projects</a>
+                <a href="#skills" onclick="closeMenu()">03 : Skills</a>
+                <a href="#resume" onclick="closeMenu()">04 : Resume</a>
+                <a href="#projects" onclick="closeMenu()">05 : Projects</a>
             </div>
             <button class="theme-btn" id="theme-btn" onclick="modeSwitcher()" title="Toggle theme">
                 <i class="bi bi-moon"></i>
@@ -391,9 +463,34 @@
     <div class="mobile-menu" id="mobile-menu">
         <a href="#home" onclick="closeMenu()">01 : Home</a>
         <a href="#about" onclick="closeMenu()">02 : About</a>
-        <a href="#resume" onclick="closeMenu()">03 : Resume</a>
-        <a href="#projects" onclick="closeMenu()">04 : Projects</a>
+        <a href="#skills" onclick="closeMenu()">03 : Skills</a>
+        <a href="#resume" onclick="closeMenu()">04 : Resume</a>
+        <a href="#projects" onclick="closeMenu()">05 : Projects</a>
     </div>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="bottom-nav" id="bottom-nav">
+        <a href="#home" class="bottom-nav-item" data-section="home">
+            <i class="bi bi-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="#about" class="bottom-nav-item" data-section="about">
+            <i class="bi bi-person"></i>
+            <span>About</span>
+        </a>
+        <a href="#skills" class="bottom-nav-item" data-section="skills">
+            <i class="bi bi-code-slash"></i>
+            <span>Skills</span>
+        </a>
+        <a href="#resume" class="bottom-nav-item" data-section="resume">
+            <i class="bi bi-file-text"></i>
+            <span>Resume</span>
+        </a>
+        <a href="#projects" class="bottom-nav-item" data-section="projects">
+            <i class="bi bi-folder"></i>
+            <span>Projects</span>
+        </a>
+    </nav>
 
 
     
@@ -454,6 +551,35 @@
         setTheme('dark');
       }
     }
+
+    // Scroll Spy
+    function updateActiveNav() {
+        const sections = ['home', 'about', 'skills', 'resume', 'projects'];
+        const navLinks = document.querySelectorAll('.desktop-nav a, .bottom-nav-item');
+        
+        let current = '';
+        sections.forEach(sectionId => {
+            const section = document.getElementById(sectionId);
+            if (section) {
+                const rect = section.getBoundingClientRect();
+                if (rect.top <= 150) {
+                    current = sectionId;
+                }
+            }
+        });
+        
+        if (!current) current = 'home';
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + current) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', updateActiveNav);
+    window.addEventListener('load', updateActiveNav);
   </script>
 
 

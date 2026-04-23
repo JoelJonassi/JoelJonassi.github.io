@@ -7,6 +7,14 @@ title: Joel Jonassi
     .section {
         padding: 80px 0;
         min-height: 100vh;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    
+    .section.visible {
+        opacity: 1;
+        transform: translateY(0);
     }
     
     .section-title {
@@ -363,6 +371,54 @@ title: Joel Jonassi
     </div>
 </div>
 
+<!-- Skills Section -->
+<div class="section" id="skills">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-subtitle">Technologies and tools I work with.</p>
+        </div>
+        
+        <div class="skills-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; max-width: 900px; margin: 0 auto;">
+            <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
+                <h4 style="font-size: 16px; margin-bottom: 12px;">Mobile</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Kotlin</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Android</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Java</span>
+                </div>
+            </div>
+            
+            <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
+                <h4 style="font-size: 16px; margin-bottom: 12px;">Web</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">HTML/CSS</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">JavaScript</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Bootstrap</span>
+                </div>
+            </div>
+            
+            <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
+                <h4 style="font-size: 16px; margin-bottom: 12px;">IoT & Hardware</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Arduino</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Raspberry Pi</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">ESP32</span>
+                </div>
+            </div>
+            
+            <div class="skill-card" style="background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; text-align: center;">
+                <h4 style="font-size: 16px; margin-bottom: 12px;">Tools & Other</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;">
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Git</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">Unity</span>
+                    <span class="tag" style="font-size: 12px; padding: 6px 12px; background: var(--accent-light); color: var(--accent); border-radius: 20px;">C#</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Resume Section -->
 <div class="section" id="resume">
     <div class="container">
@@ -533,4 +589,28 @@ title: Joel Jonassi
     }
 
     showPage(1);
+
+    // Scroll Animations
+    const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.section').forEach(section => {
+        observer.observe(section);
+    });
+
+    // Hero animation on load
+    window.addEventListener('load', () => {
+        document.getElementById('home').classList.add('visible');
+    });
 </script>
