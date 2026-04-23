@@ -88,6 +88,7 @@
             color: var(--text-primary);
             line-height: 1.78;
             font-size: 14px;
+            padding-top: 60px;
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -193,24 +194,27 @@
             height: 60px;
             background: var(--nav-bg);
             border-bottom: 1px solid var(--border-color);
-            z-index: 1000;
+            z-index: 9999;
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 0 20px;
             box-shadow: var(--shadow);
+            pointer-events: auto;
         }
 
         .custom-nav-left {
             display: flex;
             align-items: center;
             gap: 16px;
+            pointer-events: auto;
         }
 
         .custom-nav-right {
             display: flex;
             align-items: center;
             gap: 8px;
+            pointer-events: auto;
         }
 
         /* Hamburger button */
@@ -227,6 +231,7 @@
             border: 1px solid var(--border-color);
             border-radius: 8px;
             transition: all 0.2s ease;
+            pointer-events: auto;
         }
 
         .hamburger:hover {
@@ -287,6 +292,7 @@
             flex-direction: column;
             gap: 8px;
             box-shadow: var(--shadow);
+            z-index: 9998;
         }
 
         .mobile-menu.show {
