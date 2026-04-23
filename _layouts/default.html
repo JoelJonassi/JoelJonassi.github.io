@@ -359,6 +359,7 @@
 
         body {
             padding-top: 60px;
+            scroll-behavior: smooth;
         }
     </style>
 </head>
@@ -374,10 +375,11 @@
             </button>
         </div>
         <div class="custom-nav-right">
-            <div class="desktop-nav">
-                <a href="{{ site.baseurl }}/index.html">01 : Home</a>
-                <a href="{{ site.baseurl }}/resume.html">02 : Resume</a>
-                <a href="{{ site.baseurl }}/blog.html">03 : Blog</a>
+            <div class="desktop-nav" id="nav-links">
+                <a href="#home" onclick="closeMenu()">01 : Home</a>
+                <a href="#about" onclick="closeMenu()">02 : About</a>
+                <a href="#resume" onclick="closeMenu()">03 : Resume</a>
+                <a href="#projects" onclick="closeMenu()">04 : Projects</a>
             </div>
             <button class="theme-btn" id="theme-btn" onclick="modeSwitcher()" title="Toggle theme">
                 <i class="bi bi-moon"></i>
@@ -387,9 +389,10 @@
 
     <!-- Mobile Menu -->
     <div class="mobile-menu" id="mobile-menu">
-        <a href="{{ site.baseurl }}/index.html" onclick="closeMenu()">01 : Home</a>
-        <a href="{{ site.baseurl }}/resume.html" onclick="closeMenu()">02 : Resume</a>
-        <a href="{{ site.baseurl }}/blog.html" onclick="closeMenu()">03 : Blog</a>
+        <a href="#home" onclick="closeMenu()">01 : Home</a>
+        <a href="#about" onclick="closeMenu()">02 : About</a>
+        <a href="#resume" onclick="closeMenu()">03 : Resume</a>
+        <a href="#projects" onclick="closeMenu()">04 : Projects</a>
     </div>
 
 
