@@ -438,12 +438,19 @@
 <body class="minimal">
     <!-- Custom Navigation Bar -->
     <header class="custom-nav">
+        <div class="custom-nav-left">
+            <button class="hamburger" onclick="toggleMenu()" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
         <div class="custom-nav-right">
             <div class="desktop-nav" id="nav-links">
-                <a href="{{ site.baseurl }}/#home">01 : Home</a>
-                <a href="{{ site.baseurl }}/#about">02 : About</a>
-                <a href="{{ site.baseurl }}/#resume">03 : Resume</a>
-                <a href="{{ site.baseurl }}/#projects">04 : Projects</a>
+                <a href="#home" onclick="closeMenu()">01 : Home</a>
+                <a href="#about" onclick="closeMenu()">02 : About</a>
+                <a href="#resume" onclick="closeMenu()">03 : Resume</a>
+                <a href="#projects" onclick="closeMenu()">04 : Projects</a>
             </div>
             <button class="theme-btn" id="theme-btn" onclick="modeSwitcher()" title="Toggle theme">
                 <i class="bi bi-moon"></i>
@@ -451,21 +458,29 @@
         </div>
     </header>
 
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <a href="#home" onclick="closeMenu()">01 : Home</a>
+        <a href="#about" onclick="closeMenu()">02 : About</a>
+        <a href="#resume" onclick="closeMenu()">03 : Resume</a>
+        <a href="#projects" onclick="closeMenu()">04 : Projects</a>
+    </div>
+
     <!-- Mobile Bottom Navigation -->
     <nav class="bottom-nav" id="bottom-nav">
-        <a href="{{ site.baseurl }}/#home" class="bottom-nav-item" data-section="home">
+        <a href="#home" class="bottom-nav-item" data-section="home">
             <i class="bi bi-house"></i>
             <span>Home</span>
         </a>
-        <a href="{{ site.baseurl }}/#about" class="bottom-nav-item" data-section="about">
+        <a href="#about" class="bottom-nav-item" data-section="about">
             <i class="bi bi-person"></i>
             <span>About</span>
         </a>
-        <a href="{{ site.baseurl }}/#resume" class="bottom-nav-item" data-section="resume">
+        <a href="#resume" class="bottom-nav-item" data-section="resume">
             <i class="bi bi-file-text"></i>
             <span>Resume</span>
         </a>
-        <a href="{{ site.baseurl }}/#projects" class="bottom-nav-item" data-section="projects">
+        <a href="#projects" class="bottom-nav-item" data-section="projects">
             <i class="bi bi-folder"></i>
             <span>Projects</span>
         </a>
