@@ -4,55 +4,93 @@ title: Joel Jonassi
 ---
 
 <style>
-    .section {
-        padding: 80px 0;
-        min-height: 100vh;
-        opacity: 0;
-        transform: translateY(30px);
-        transition: opacity 0.6s ease, transform 0.6s ease;
-    }
-    
-    .section.visible {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    
-    .section-title {
-        font-size: 28px;
-        font-weight: 600;
-        margin-bottom: 24px;
-        color: var(--text-primary);
-    }
-    
-    .section-subtitle {
-        color: var(--text-secondary);
-        font-size: 16px;
-        max-width: 600px;
-        margin: 0 auto 40px;
-    }
-    
-    /* Hero Section */
     .hero {
         min-height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
         background: var(--bg-secondary);
-        position: relative;
+        padding: 0 20px;
+    }
+    
+    .hero-content {
+        text-align: center;
     }
     
     .hero-content h1 {
-        font-size: 56px;
+        font-size: 64px;
         font-weight: 700;
-        line-height: 1.2;
+        line-height: 1.1;
         color: var(--text-primary);
+        margin-bottom: 16px;
+    }
+    
+    .hero-content h1 span {
+        color: var(--accent);
     }
     
     .hero-content p {
-        font-size: 18px;
+        font-size: 20px;
         color: var(--text-secondary);
-        margin-top: 16px;
+        margin-bottom: 32px;
     }
+    
+    .hero-content .tagline {
+        font-size: 16px;
+        color: var(--text-muted);
+        max-width: 500px;
+        line-height: 1.6;
+    }
+    
+    .hero-links {
+        display: flex;
+        gap: 16px;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    
+    .hero-links a {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 12px 24px;
+        background: var(--accent);
+        color: white;
+        border-radius: 8px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+    }
+    
+    .hero-links a:hover {
+        opacity: 0.9;
+        text-decoration: none;
+    }
+    
+    .hero-links a.secondary {
+        background: transparent;
+        border: 1px solid var(--border-color);
+        color: var(--text-primary);
+    }
+    .hero-links a.secondary:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+    }
+</style>
+
+<!-- Hero Section -->
+<div class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Joel Jonassi</span></h1>
+            <p>Computer Systems Engineer</p>
+            <p class="tagline">I close the gap between devices, people and software, building things that work in the real world.</p>
+            <div class="hero-links">
+                <a href="#about">About Me</a>
+                <a href="#projects" class="secondary">View Projects</a>
+            </div>
+        </div>
+    </div>
+</div>
     
     /* About Section */
     .about-grid {
@@ -313,16 +351,6 @@ title: Joel Jonassi
         }
     }
 </style>
-
-<!-- Hero Section -->
-<div class="hero" id="home">
-    <div class="container">
-        <div class="hero-content text-center">
-            <h1>Hello,<br>I'm Joel Jonassi</h1>
-            <p>Computer Systems Engineer</p>
-        </div>
-    </div>
-</div>
 
 <!-- About Section -->
 <div class="section" id="about">
