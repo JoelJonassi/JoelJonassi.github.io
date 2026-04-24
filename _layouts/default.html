@@ -351,86 +351,13 @@
             text-decoration: none;
         }
 
-        @media (max-width: 768px) {
-            .desktop-nav {
-                display: none;
-            }
-
-            .hamburger {
-                display: flex;
-            }
-
-            .section-container {
-                padding: 40px 0;
-            }
-        }
-
-        @media (min-width: 769px) {
-            .mobile-menu {
-                display: none !important;
-            }
-
-            .hamburger {
-                display: none;
-            }
+/* Hide all nav elements */
+        .custom-nav, .desktop-nav, .mobile-menu, .theme-btn {
+            display: none !important;
         }
 
         body {
-            padding-top: 60px;
-            padding-bottom: 70px;
-            scroll-behavior: smooth;
-        }
-
-        /* Mobile Bottom Navigation */
-        .bottom-nav {
-            display: none;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 65px;
-            background: var(--nav-bg);
-            border-top: 1px solid var(--border-color);
-            z-index: 9999;
-            justify-content: space-around;
-            align-items: center;
-            padding: 0 8px;
-            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
-        }
-
-        .bottom-nav-item {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 4px;
-            color: var(--text-secondary);
-            font-size: 11px;
-            padding: 8px 12px;
-            border-radius: 8px;
-            transition: all 0.2s ease;
-            text-decoration: none;
-        }
-
-        .bottom-nav-item i {
-            font-size: 20px;
-        }
-
-        .bottom-nav-item.active {
-            color: var(--accent);
-        }
-
-        .bottom-nav-item:hover {
-            background: var(--bg-secondary);
-        }
-
-        @media (max-width: 768px) {
-            .bottom-nav {
-                display: flex;
-            }
-            
-            body {
-                padding-bottom: 70px;
-            }
+            padding-bottom: 80px;
         }
     </style>
 </head>
