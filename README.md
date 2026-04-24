@@ -27,14 +27,14 @@ bundle install
 bundle exec jekyll serve
 ```
 
-## Structure
+## Directory Structure
 
 ```
 ├── _layouts/     # Page templates
-├── _posts/      # Blog/Project posts
-├── assets/      # CSS, JS, Images
-├── index.html  # Main page
-└── blog.html   # Projects/Blog page
+├── _posts/       # Project posts
+├── assets/       # CSS, JS, Images
+├── index.html    # Main single-page
+└── resume.html   # Resume page
 ```
 
 ## License
