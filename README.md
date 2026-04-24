@@ -1,12 +1,42 @@
-# Personal Website
+# Joel Jonassi Portfolio
 
-Templates used:
+My personal portfolio website showcasing projects, skills, and professional experience.
 
-https://www.free-css.com/free-css-templates/page270/univers
+## About
 
-https://github.com/P0WEX/Gesko
+A modern, single-page portfolio built with Jekyll and Bootstrap. Features:
+- Dark/Light theme toggle
+- Responsive design
+- Smooth scroll animations
+- Projects showcase with pagination
 
+## Tech Stack
 
-Install ruby and jekyll: https://jekyllrb.com/docs/installation/ubuntu/
+- **Framework**: Jekyll
+- **Styling**: CSS, Bootstrap 4
+- **Icons**: Font Awesome, Bootstrap Icons
+- **Hosting**: GitHub Pages
 
-deploy website on github page: https://pages.github.com/
+## Build & Run
+
+```bash
+# Install dependencies
+bundle install
+
+# Run locally
+bundle exec jekyll serve
+```
+
+## Structure
+
+```
+├── _layouts/     # Page templates
+├── _posts/      # Blog/Project posts
+├── assets/      # CSS, JS, Images
+├── index.html  # Main page
+└── blog.html   # Projects/Blog page
+```
+
+## License
+
+MIT
