@@ -4,7 +4,7 @@ My personal portfolio website showcasing projects, skills, and professional expe
 
 ## About
 
-A modern, single-page portfolio built with Jekyll and Bootstrap. Features:
+A modern, single-page portfolio built with Jekyll and Bootstrap:
 - Dark/Light theme toggle
 - Responsive design
 - Smooth scroll animations
