@@ -1,64 +1,17 @@
 ---
 layout: page
-title: Blog
+title: Projects
 ---
 
 <style>
-    .blog-header {
-        text-align: center;
-        max-width: 600px;
-        margin: 0 auto 48px;
-    }
-
-    .blog-header h1 {
-        font-size: 36px;
-        margin-bottom: 16px;
-    }
-
-    .blog-header p {
-        color: var(--text-secondary);
-        font-size: 16px;
-    }
-
-    .blog-filters {
-        display: flex;
-        justify-content: center;
-        gap: 8px;
-        margin-bottom: 40px;
-        flex-wrap: wrap;
-    }
-
-    .blog-filter-btn {
-        padding: 8px 16px;
-        background: var(--card-bg);
-        border: 1px solid var(--border-color);
-        border-radius: 20px;
-        color: var(--text-secondary);
-        font-size: 13px;
-        font-weight: 500;
-        cursor: pointer;
-        transition: all 0.2s ease;
-    }
-
-    .blog-filter-btn:hover {
-        background: var(--bg-secondary);
-        color: var(--accent);
-        border-color: var(--accent);
-    }
-
-    .blog-filter-btn.active {
-        background: var(--accent);
-        color: white;
-        border-color: var(--accent);
-    }
-
-    .blog-grid {
+    .posts-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
         gap: 24px;
+        margin-top: 32px;
     }
 
-    .blog-card {
+    .post-card {
         background: var(--card-bg);
         border: 1px solid var(--border-color);
         border-radius: 16px;
@@ -70,7 +23,7 @@ title: Blog
         overflow: hidden;
     }
 
-    .blog-card::before {
+    .post-card::before {
         content: '';
         position: absolute;
         top: 0;
@@ -82,59 +35,47 @@ title: Blog
         transition: opacity 0.3s ease;
     }
 
-    .blog-card:hover {
+    .post-card:hover {
         box-shadow: var(--shadow-hover);
         transform: translateY(-4px);
     }
 
-    .blog-card:hover::before {
+    .post-card:hover::before {
         opacity: 1;
     }
 
-    .blog-card-header {
+    .post-card-header {
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         margin-bottom: 12px;
     }
 
-    .blog-card h3 {
+    .post-card h3 {
         margin: 0;
         font-size: 18px;
         font-weight: 600;
         line-height: 1.4;
     }
 
-    .blog-card h3 a {
+    .post-card h3 a {
         color: var(--text-primary);
         text-decoration: none;
         transition: color 0.2s ease;
     }
 
-    .blog-card h3 a:hover {
+    .post-card h3 a:hover {
         color: var(--accent);
     }
 
-    .blog-card time {
+    .post-card date {
         font-size: 12px;
-        color: var(--text-secondary);
+        color: var(--text-muted);
         white-space: nowrap;
         margin-left: 12px;
     }
 
-    .blog-card .category {
-        display: inline-block;
-        font-size: 11px;
-        padding: 3px 8px;
-        background: var(--accent-light);
-        color: var(--accent);
-        border-radius: 12px;
-        font-weight: 500;
-        text-transform: capitalize;
-        margin-bottom: 10px;
-    }
-
-    .blog-card .description {
+    .post-card .description {
         color: var(--text-secondary);
         font-size: 14px;
         line-height: 1.6;
@@ -142,24 +83,23 @@ title: Blog
         flex-grow: 1;
     }
 
-    .blog-card .tags {
+    .post-card .tags {
         display: flex;
         flex-wrap: wrap;
         gap: 8px;
         margin-top: auto;
     }
 
-    .blog-card .tag {
+    .post-card .tag {
         font-size: 11px;
         padding: 4px 10px;
-        background: var(--bg-secondary);
-        border: 1px solid var(--border-color);
-        color: var(--text-secondary);
+        background: var(--accent-light);
+        color: var(--accent);
         border-radius: 20px;
         font-weight: 500;
     }
 
-    .blog-card .read-more {
+    .post-card .read-more {
         display: inline-flex;
         align-items: center;
         gap: 6px;
@@ -170,21 +110,17 @@ title: Blog
         text-decoration: none;
     }
 
-    .blog-card .read-more:hover {
+    .post-card .read-more:hover {
         text-decoration: underline;
     }
 
-    .blog-card .read-more i {
+    .post-card .read-more i {
         font-size: 14px;
         transition: transform 0.2s ease;
     }
 
-    .blog-card .read-more:hover i {
+    .post-card .read-more:hover i {
         transform: translateX(4px);
-    }
-
-    .blog-card.hidden {
-        display: none;
     }
 
     /* Pagination */
@@ -231,42 +167,36 @@ title: Blog
     }
 
     .pagination .page-info {
-        color: var(--text-secondary);
+        color: var(--text-muted);
         font-size: 13px;
         margin: 0 16px;
     }
 
-    @media (max-width: 768px) {
-        .blog-grid {
-            grid-template-columns: 1fr;
-        }
+    .post-card.hidden {
+        display: none;
     }
 </style>
 
 <div class="section-container">
     <div class="container">
-        <div class="blog-header">
-            <h1>Blog</h1>
-            <p>Thoughts on what I'm building, what I'm learning, and where technology is heading.</p>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="text-center" style="max-width: 600px; margin: 0 auto;">
+                    <h1 style="font-size: 36px; margin-bottom: 16px;">Projects</h1>
+                    <p style="color: var(--text-secondary); font-size: 16px;">Welcome to my portfolio! View my most recent projects, which highlight my innovative thinking and practical solutions.</p>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <div class="blog-filters">
-            <button class="blog-filter-btn active" onclick="filterPosts('all')">All</button>
-            <button class="blog-filter-btn" onclick="filterPosts('findings')">Findings</button>
-            <button class="blog-filter-btn" onclick="filterPosts('work-in-progress')">Work in Progress</button>
-            <button class="blog-filter-btn" onclick="filterPosts('trends')">Trends</button>
-        </div>
-
-        <div class="blog-grid" id="blog-container">
-            {% for post in site.blog %}
-            <div class="blog-card" data-category="{{ post.category }}" data-page="{{ forloop.index0 | divided_by: 6 | plus: 1 }}">
-                <div class="blog-card-header">
+    <div class="container posts" id="posts-container">
+        <div class="posts-grid">
+            {% for post in site.posts %}
+            <div class="post-card" data-page="{{ forloop.index0 | divided_by: 6 | plus: 1 }}">
+                <div class="post-card-header">
                     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
                     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
                 </div>
-                {% if post.category %}
-                <span class="category">{{ post.category }}</span>
-                {% endif %}
                 <p class="description">{{ post.description }}</p>
                 {% if post.tags %}
                 <div class="tags">
@@ -281,53 +211,30 @@ title: Blog
             </div>
             {% endfor %}
         </div>
+    </div>
 
+    <div class="container">
         <div class="pagination" id="pagination"></div>
     </div>
 </div>
 
 <script>
     const postsPerPage = 6;
-    let allCards = document.querySelectorAll('.blog-card');
-    let filteredCards = [...allCards];
-    let totalPages = Math.ceil(filteredCards.length / postsPerPage);
+    const posts = document.querySelectorAll('.post-card');
+    const totalPosts = posts.length;
+    const totalPages = Math.ceil(totalPosts / postsPerPage);
     let currentPage = 1;
-
-    function filterPosts(category) {
-        document.querySelectorAll('.blog-filter-btn').forEach(btn => {
-            btn.classList.remove('active');
-            if (btn.textContent.toLowerCase().replace(/\s+/g, '-') === category || 
-                (category === 'all' && btn.textContent === 'All')) {
-                btn.classList.add('active');
-            }
-        });
-
-        allCards.forEach(card => {
-            if (category === 'all' || card.dataset.category === category) {
-                card.classList.remove('hidden');
-            } else {
-                card.classList.add('hidden');
-            }
-        });
-
-        filteredCards = [...allCards].filter(card => 
-            category === 'all' || card.dataset.category === category
-        );
-        totalPages = Math.ceil(filteredCards.length / postsPerPage);
-        currentPage = 1;
-        showPage(1);
-    }
 
     function showPage(page) {
         currentPage = page;
         const start = (page - 1) * postsPerPage;
         const end = start + postsPerPage;
 
-        filteredCards.forEach((card, index) => {
+        posts.forEach((post, index) => {
             if (index >= start && index < end) {
-                card.classList.remove('hidden');
+                post.classList.remove('hidden');
             } else {
-                card.classList.add('hidden');
+                post.classList.add('hidden');
             }
         });
 
@@ -338,14 +245,14 @@ title: Blog
         const pagination = document.getElementById('pagination');
         pagination.innerHTML = '';
 
-        if (totalPages <= 1) return;
-
+        // Previous button
         const prevBtn = document.createElement('button');
         prevBtn.innerHTML = '<i class="bi bi-chevron-left"></i>';
         prevBtn.onclick = () => showPage(currentPage - 1);
         prevBtn.disabled = currentPage === 1;
         pagination.appendChild(prevBtn);
 
+        // Page numbers
         for (let i = 1; i <= totalPages; i++) {
             if (totalPages <= 7 || i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
                 const btn = document.createElement('button');
@@ -356,17 +263,25 @@ title: Blog
             } else if (i === currentPage - 2 || i === currentPage + 2) {
                 const ellipsis = document.createElement('span');
                 ellipsis.textContent = '...';
-                ellipsis.style.cssText = 'padding: 0 8px; color: var(--text-secondary);';
+                ellipsis.style.cssText = 'padding: 0 8px; color: var(--text-muted);';
                 pagination.appendChild(ellipsis);
             }
         }
 
+        // Next button
         const nextBtn = document.createElement('button');
         nextBtn.innerHTML = '<i class="bi bi-chevron-right"></i>';
         nextBtn.onclick = () => showPage(currentPage + 1);
         nextBtn.disabled = currentPage === totalPages;
         pagination.appendChild(nextBtn);
+
+        // Page info
+        const info = document.createElement('span');
+        info.className = 'page-info';
+        info.textContent = `Page ${currentPage} of ${totalPages}`;
+        pagination.appendChild(info);
     }
 
+    // Initialize
     showPage(1);
 </script>

@@ -4,6 +4,12 @@ name: Joel Jonassi
 # baseurl: ""
 permalink: /blog/:title
 
+# Collections
+collections:
+  blog:
+    output: true
+    permalink: /blog/:name
+
 # seo tag
 plugins:
   - jekyll-seo-tag
