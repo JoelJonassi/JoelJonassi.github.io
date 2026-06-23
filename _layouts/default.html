@@ -381,8 +381,7 @@
                 <a href="{{ site.baseurl }}/#home" onclick="closeMenu()">01 : Home</a>
                 <a href="{{ site.baseurl }}/#about" onclick="closeMenu()">02 : About</a>
                 <a href="{{ site.baseurl }}/#resume" onclick="closeMenu()">03 : Resume</a>
-                <a href="{{ site.baseurl }}/#projects" onclick="closeMenu()">04 : Projects</a>
-                <a href="{{ site.baseurl }}/blog.html" onclick="closeMenu()">05 : Blog</a>
+                <a href="{{ site.baseurl }}/blog.html" onclick="closeMenu()">04 : Blog</a>
             </div>
             <button class="theme-btn" id="theme-btn" onclick="modeSwitcher()" title="Toggle theme">
                 <i class="bi bi-moon"></i>
@@ -395,8 +394,7 @@
         <a href="{{ site.baseurl }}/#home" onclick="closeMenu()">01 : Home</a>
         <a href="{{ site.baseurl }}/#about" onclick="closeMenu()">02 : About</a>
         <a href="{{ site.baseurl }}/#resume" onclick="closeMenu()">03 : Resume</a>
-        <a href="{{ site.baseurl }}/#projects" onclick="closeMenu()">04 : Projects</a>
-        <a href="{{ site.baseurl }}/blog.html" onclick="closeMenu()">05 : Blog</a>
+        <a href="{{ site.baseurl }}/blog.html" onclick="closeMenu()">04 : Blog</a>
     </div>
 
     
@@ -460,7 +458,7 @@
 
     // Scroll Spy
     function updateActiveNav() {
-        const sections = ['home', 'about', 'resume', 'projects'];
+        const sections = ['home', 'about', 'resume'];
         const navLinks = document.querySelectorAll('.desktop-nav a');
         
         let current = '';

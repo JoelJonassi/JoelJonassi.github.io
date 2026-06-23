@@ -21,22 +21,29 @@ layout: default
         {{content}}
       </div>
     </div>
+    {% assign all_posts = site.blog | concat: site.posts | sort: "date" %}
+    {% for post in all_posts %}
+      {% if post.url == page.url %}
+        {% assign idx = forloop.index0 %}
+      {% endif %}
+    {% endfor %}
+    {% assign prev_idx = idx | minus: 1 %}
+    {% assign next_idx = idx | plus: 1 %}
     <nav class="post-nav">
-      {% if page.previous %}
-      <a class="post-nav-item post-nav-prev" href="{{ page.previous | relative_url }}">
+      {% if prev_idx >= 0 %}
+      <a class="post-nav-item post-nav-prev" href="{{ all_posts[prev_idx].url | relative_url }}">
         <div class="nav-arrow">Previous</div>
-        <span class="post-title">{{ page.previous.title | truncate: 40, "..." }}</span>
+        <span class="post-title">{{ all_posts[prev_idx].title | truncate: 40, "..." }}</span>
       </a>
       {% else %}
       <a class="post-nav-item post-nav-prev"></a>
       {% endif %}
-      {% if page.next %}
-      <a class="post-nav-item post-nav-next" href="{{ page.next | relative_url }}">
+      {% if next_idx < all_posts.size %}
+      <a class="post-nav-item post-nav-next" href="{{ all_posts[next_idx].url | relative_url }}">
         <div class="nav-arrow">Next</div>
-        <span class="post-title">{{ page.next.title | truncate: 40, "..." }}</span>
+        <span class="post-title">{{ all_posts[next_idx].title | truncate: 40, "..." }}</span>
       </a>
       {% endif %}
-
     </nav>
   </div>
 

@@ -598,35 +598,6 @@ My focus is on closing the gap between people, machines, and the software that c
     }
 </script>
 
-<!-- Projects Section -->
-<div class="section" id="projects">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-title">Projects</h2>
-            <p class="section-subtitle">My most recent projects showcasing innovative thinking and practical solutions.</p>
-        </div>
-        
-        <div class="projects-grid" id="projects-container">
-            {% for post in site.posts %}
-            <div class="project-card" data-page="{{ forloop.index0 | divided_by: 6 | plus: 1 }}">
-                <h4><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-                <div class="date">{{ post.date | date: "%b %Y" }}</div>
-                <p class="description">{{ post.description }}</p>
-                {% if post.tags %}
-                <div class="tags">
-                    {% for tag in post.tags limit:2 %}
-                    <span class="tag">{{ tag }}</span>
-                    {% endfor %}
-                </div>
-                {% endif %}
-            </div>
-            {% endfor %}
-        </div>
-        
-        <div class="pagination" id="pagination"></div>
-    </div>
-</div>
-
 <!-- Blog Section -->
 <div class="section" id="blog">
     <div class="container">
@@ -660,63 +631,6 @@ My focus is on closing the gap between people, machines, and the software that c
 </div>
 
 <script>
-    // Projects Pagination
-    const projectsPerPage = 6;
-    const projectCards = document.querySelectorAll('.project-card');
-    const totalProjects = projectCards.length;
-    const totalPages = Math.ceil(totalProjects / projectsPerPage);
-    let currentPage = 1;
-
-    function showPage(page) {
-        currentPage = page;
-        const start = (page - 1) * projectsPerPage;
-        const end = start + projectsPerPage;
-
-        projectCards.forEach((card, index) => {
-            if (index >= start && index < end) {
-                card.classList.remove('hidden');
-            } else {
-                card.classList.add('hidden');
-            }
-        });
-
-        updatePagination();
-    }
-
-    function updatePagination() {
-        const pagination = document.getElementById('pagination');
-        pagination.innerHTML = '';
-
-        const prevBtn = document.createElement('button');
-        prevBtn.innerHTML = '<i class="bi bi-chevron-left"></i>';
-        prevBtn.onclick = () => showPage(currentPage - 1);
-        prevBtn.disabled = currentPage === 1;
-        pagination.appendChild(prevBtn);
-
-        for (let i = 1; i <= totalPages; i++) {
-            if (totalPages <= 7 || i === 1 || i === totalPages || (i >= currentPage - 1 && i <= currentPage + 1)) {
-                const btn = document.createElement('button');
-                btn.textContent = i;
-                btn.className = i === currentPage ? 'active' : '';
-                btn.onclick = () => showPage(i);
-                pagination.appendChild(btn);
-            } else if (i === currentPage - 2 || i === currentPage + 2) {
-                const ellipsis = document.createElement('span');
-                ellipsis.textContent = '...';
-                ellipsis.style.cssText = 'padding: 0 8px; color: var(--text-muted);';
-                pagination.appendChild(ellipsis);
-            }
-        }
-
-        const nextBtn = document.createElement('button');
-        nextBtn.innerHTML = '<i class="bi bi-chevron-right"></i>';
-        nextBtn.onclick = () => showPage(currentPage + 1);
-        nextBtn.disabled = currentPage === totalPages;
-        pagination.appendChild(nextBtn);
-    }
-
-    showPage(1);
-
     // Scroll Animations
     const observerOptions = {
         root: null,
