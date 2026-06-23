@@ -4,6 +4,7 @@ title: Handle large list of images on Kotlin Android with Glide
 description: Scrolling a large list of data can lead to a leak of memory or crash of the app. Many approach can be used like sliding window algorithm, API pagination, optimize image size, etc.
 summary: 
 tags: Kotlin, Android
+category: projects
 ---
 <i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." Benjamin Franklin</i>
 

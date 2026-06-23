@@ -3,6 +3,7 @@ layout: post
 title: Integration Architecture to Support IoT Devices in Smart Environments
 description: Efficiently handling large datasets can prevent memory leaks or app crashes. Techniques such as sliding window algorithms, API pagination, and optimizing image sizes play a key role in robust development.
 tags: Kotlin, Android, IoT
+category: projects
 ---
 
 <i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." - Benjamin Franklin</i>

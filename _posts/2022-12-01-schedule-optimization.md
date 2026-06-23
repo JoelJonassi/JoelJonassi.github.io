@@ -4,6 +4,7 @@ title: Schedules Optimization with Intelligent Agents
 description: Optimizing class schedules to minimize campus travel and classroom utilization using artificial intelligence.
 summary: A project applying intelligent agents and artificial intelligence algorithms to optimize class scheduling and predict housing data from California.
 tags: Python, AI, Machine Learning, Random Forest, Clustering, Decision Trees, Jupyter, GitHub
+category: projects
 ---
 
 <i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." - Benjamin Franklin</i>

@@ -3,6 +3,7 @@ layout: post
 title: Public Speaking Phobia Mitigation (Project & Research)
 description: A project and research initiative to mitigate public speaking phobia using VR training and web platforms, developed in collaboration with an Erasmus+ team.
 tags: VR, Unity, Public Speaking, Phobia Mitigation
+category: projects
 ---
 
 <i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." - Benjamin Franklin</i>

@@ -4,6 +4,7 @@ title: IoT System (Smart Rooms)
 description: The Smart Rooms project optimizes classroom environments by integrating IoT technology to enhance energy efficiency and improve the learning experience.
 summary: The project focuses on integrating IoT sensors and mobile applications to optimize classroom management by monitoring and controlling environmental factors like temperature, humidity, and air quality.
 tags: Kotlin, Android, IoT, Raspberry Pi, Embedded Systems, Smart Cities
+category: projects
 ---
 
 <i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." — Benjamin Franklin</i>

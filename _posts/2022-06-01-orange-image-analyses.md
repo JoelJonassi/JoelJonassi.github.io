@@ -4,6 +4,7 @@ title: Orange Recognition System
 description: Leveraging computer vision techniques to automate the identification and quality control of oranges on a production line
 summary: A project focused on applying image processing algorithms for object recognition and classification in an industrial setting
 tags: C++, Computer Vision
+category: projects
 ---
 
 <i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." — Benjamin Franklin</i>

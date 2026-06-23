@@ -4,6 +4,7 @@ title: Church Member Registration App
 description: This app simplifies member management and attendance tracking for church leaders, integrating Firebase for real-time data storage and offering useful features for administrative tasks.
 summary: The app provides tools for church leaders to register members, track attendance, and manage important events with Firebase for data storage. It helps in improving church organization and communication.
 tags: Kotlin, Android, Firebase
+category: projects
 ---
 
 <i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." — Benjamin Franklin</i>

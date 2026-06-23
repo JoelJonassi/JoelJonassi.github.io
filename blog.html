@@ -229,11 +229,13 @@ title: Blog
             <button class="blog-filter-btn" onclick="filterPosts('findings')">Findings</button>
             <button class="blog-filter-btn" onclick="filterPosts('work-in-progress')">Work in Progress</button>
             <button class="blog-filter-btn" onclick="filterPosts('trends')">Trends</button>
+            <button class="blog-filter-btn" onclick="filterPosts('projects')">Projects</button>
         </div>
 
+        {% assign combined = site.blog | concat: site.posts | sort: "date" | reverse %}
         <div class="blog-list" id="blog-container">
-            {% for post in site.blog %}
-            <div class="blog-item" data-category="{{ post.category }}" data-page="{{ forloop.index0 | divided_by: 10 | plus: 1 }}">
+            {% for post in combined %}
+            <div class="blog-item" data-category="{{ post.category | default: 'projects' }}" data-page="{{ forloop.index0 | divided_by: 10 | plus: 1 }}">
                 <div class="blog-item-top">
                     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
                     <a href="{{ site.baseurl }}{{ post.url }}" class="blog-item-title">{{ post.title }}</a>

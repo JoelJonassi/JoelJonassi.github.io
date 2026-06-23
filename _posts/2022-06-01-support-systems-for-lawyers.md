@@ -4,6 +4,7 @@ title: Support Systems for Lawyers
 description: A web platform designed to assist lawyers in managing legal cases efficiently, ensuring compliance with government regulations, and automating critical tasks to save time and reduce human error.
 summary: A collaborative development project aimed at simplifying legal case management through advanced automation using C#, PostgreSQL, and Angular, built using agile methodologies for better performance and scalability.
 tags: C#, PostgreSQL, Angular, GitHub, Agile, Jira
+category: projects
 ---
 
 <i>"Automation applied to an efficient operation will magnify the efficiency. Automation applied to an inefficient operation will magnify the inefficiency." — Bill Gates</i>

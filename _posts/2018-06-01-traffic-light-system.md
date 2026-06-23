@@ -4,6 +4,7 @@ title: Traffic Light System
 description: A project aimed at educating children about road safety through an interactive traffic light system.
 summary: 
 tags: Arduino, Embedded Systems, Road Safety, Electrical Installation
+category: projects
 ---
 
 <i>"Tell me and I forget. Teach me and I remember. Involve me and I learn." – Benjamin Franklin</i>
