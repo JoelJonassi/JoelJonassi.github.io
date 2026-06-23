@@ -2,37 +2,55 @@
 layout: blog-post
 title: "Edge Computing Trends in 2026: What's Changing"
 date: 2026-06-05
-description: "Observations on where edge computing is heading and why it matters for developers working at the hardware-software boundary."
+description: "Observations from the trenches on where edge computing is heading and why it matters for developers working at the hardware-software boundary."
 tags: Edge Computing, IoT, Trends, Embedded
 category: trends
 ---
 
-Edge computing keeps evolving. Here are the trends I'm seeing from my vantage point working in IoT and embedded systems.
+I work at the intersection of hardware and software every day. And I've been watching edge computing evolve in real-time. Here's what I'm seeing from the trenches — not analyst predictions, just honest observations.
 
-## 1. ML at the Edge Is No Longer Experimental
+## 1) ML at the Edge is No Longer Experimental
 
-A year ago, running ML models on microcontrollers was a research topic. Now it's production. TinyML frameworks have matured, and chip vendors are shipping silicon with dedicated ML accelerators. The practical impact:
+A year ago, running ML models on microcontrollers felt like a research project. Now it's just... normal.
 
-- Anomaly detection happening on-device, not in the cloud
-- Reduced bandwidth costs (only send anomalies, not raw telemetry)
-- Faster response times for safety-critical applications
+TinyML frameworks have matured. Chip vendors are shipping silicon with dedicated ML accelerators. And the practical impact is real:
 
-## 2. RISC-V Is Gaining Real Traction
+- Devices detect anomalies on their own, without phoning home
+- You only send the interesting data to the cloud (saves a lot of money)
+- Response times are fast enough for safety-critical applications
 
-I'm seeing more RISC-V-based MCUs in production designs. The ecosystem has matured — toolchains are stable, peripheral libraries are available, and the cost advantage over ARM is becoming significant for high-volume deployments.
+I recently deployed a tiny model on a Cortex-M4 for vibration analysis. It worked on the first try. That would have been unthinkable two years ago.
 
-## 3. WebAssembly for Edge Logic
+## 2) RISC-V is Actually Happening
 
-Wasm is moving beyond the browser. Several edge platforms now support Wasm runtimes for deploying business logic to edge nodes. The value proposition: write once, run on any edge hardware with a Wasm runtime. Early days, but the trajectory is clear.
+I've been hearing about RISC-V for years. I was skeptical. But now I'm seeing real RISC-V MCUs in actual production designs — not just hobby projects.
 
-## 4. Digital Twins Getting Real
+The toolchains are stable. The peripheral libraries work. And the cost advantage over ARM is significant when you're shipping thousands of units.
 
-Digital twins are moving from marketing buzzword to practical tool. The key enabler: better state synchronization between physical devices and their digital representations. CRDTs, event sourcing, and efficient serialization formats (like Cap'n Proto) are making this feasible at scale.
+I'm not saying ARM is going away. But RISC-V is no longer a question mark. It's a real option.
 
-## 5. Connectivity Is Still the Hard Part
+## 3) WebAssembly is Sneaking Into Edge
 
-Despite promises of ubiquitous 5G, many IoT deployments still rely on LoRa, NB-IoT, or even 2G fallback. The trend I see: multi-radio devices that can switch between connectivity modes based on availability and power constraints. This is where GSM fallback systems become critical.
+Wasm is escaping the browser. Several edge platforms now support Wasm runtimes for deploying business logic directly to edge nodes.
 
----
+The pitch is compelling: write your logic once, run it on any edge hardware. Early days, but the trajectory is clear.
 
-These are observations from the trenches, not analyst predictions. Take them for what they're worth.
+## 4) Digital Twins Are Getting Real
+
+Digital twins used to be a buzzword. Now they're becoming a practical tool.
+
+The key enabler? Better state synchronization. CRDTs, event sourcing, and efficient serialization formats (Cap'n Proto, anyone?) are making it feasible to keep a digital representation of a physical device in sync — even over unreliable networks.
+
+I've been experimenting with this for fleet management. It's not perfect, but it's getting there.
+
+## 5) Connectivity is Still the Hard Part
+
+Here's the thing nobody wants to admit: despite all the 5G hype, most IoT deployments still rely on LoRa, NB-IoT, or good old 2G fallback.
+
+The trend I'm seeing? Multi-radio devices that switch between connectivity modes based on availability and power constraints. This is exactly why I've been building GSM fallback systems — when your primary network goes down, you need something that still works.
+
+## The Bottom Line
+
+Edge computing is growing up. The hype is settling, and the real engineering work is happening. It's messy, it's complicated, and I love it.
+
+These are my observations from the trenches. Take them for what they're worth — one engineer's view of where we're heading.
