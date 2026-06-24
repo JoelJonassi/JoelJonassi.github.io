@@ -216,6 +216,7 @@
             display: flex;
             align-items: center;
             gap: 8px;
+            flex-shrink: 0;
             pointer-events: auto;
         }
 
@@ -321,6 +322,10 @@
             gap: 4px;
         }
 
+        .desktop-nav {
+            flex-shrink: 0;
+        }
+
         .desktop-nav a {
             padding: 8px 14px;
             color: var(--text-secondary);
@@ -328,6 +333,7 @@
             border-radius: 8px;
             transition: all 0.2s ease;
             white-space: nowrap;
+            flex-shrink: 0;
         }
 
         .desktop-nav a:hover {
