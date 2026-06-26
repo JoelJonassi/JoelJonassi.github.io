@@ -7,7 +7,7 @@ tags: Edge Computing, IoT, Trends, Embedded
 category: trends
 ---
 
-I work at the intersection of hardware and software every day. And I've been watching edge computing evolve in real-time. Here's what I'm seeing from the trenches — not analyst predictions, just honest observations.
+I work at the intersection of hardware and software every day. And I've been watching edge computing evolve in real-time. Here's what I'm seeing from the trenches, not analyst predictions, just honest observations.
 
 ## 1) ML at the Edge is No Longer Experimental
 
@@ -23,7 +23,7 @@ I recently deployed a tiny model on a Cortex-M4 for vibration analysis. It worke
 
 ## 2) RISC-V is Actually Happening
 
-I've been hearing about RISC-V for years. I was skeptical. But now I'm seeing real RISC-V MCUs in actual production designs — not just hobby projects.
+I've been hearing about RISC-V for years. I was skeptical. But now I'm seeing real RISC-V MCUs in actual production designs, not just hobby projects.
 
 The toolchains are stable. The peripheral libraries work. And the cost advantage over ARM is significant when you're shipping thousands of units.
 
@@ -39,7 +39,7 @@ The pitch is compelling: write your logic once, run it on any edge hardware. Ear
 
 Digital twins used to be a buzzword. Now they're becoming a practical tool.
 
-The key enabler? Better state synchronization. CRDTs, event sourcing, and efficient serialization formats (Cap'n Proto, anyone?) are making it feasible to keep a digital representation of a physical device in sync — even over unreliable networks.
+The key enabler? Better state synchronization. CRDTs, event sourcing, and efficient serialization formats (Cap'n Proto, anyone?) are making it feasible to keep a digital representation of a physical device in sync even over unreliable networks.
 
 I've been experimenting with this for fleet management. It's not perfect, but it's getting there.
 
@@ -47,10 +47,10 @@ I've been experimenting with this for fleet management. It's not perfect, but it
 
 Here's the thing nobody wants to admit: despite all the 5G hype, most IoT deployments still rely on LoRa, NB-IoT, or good old 2G fallback.
 
-The trend I'm seeing? Multi-radio devices that switch between connectivity modes based on availability and power constraints. This is exactly why I've been building GSM fallback systems — when your primary network goes down, you need something that still works.
+The trend I'm seeing? Multi-radio devices that switch between connectivity modes based on availability and power constraints. This is exactly why I've been building GSM fallback systems when your primary network goes down, you need something that still works.
 
 ## The Bottom Line
 
 Edge computing is growing up. The hype is settling, and the real engineering work is happening. It's messy, it's complicated, and I love it.
 
-These are my observations from the trenches. Take them for what they're worth — one engineer's view of where we're heading.
+These are my observations from the trenches. Take them for what they're worth one engineer's view of where we're heading.

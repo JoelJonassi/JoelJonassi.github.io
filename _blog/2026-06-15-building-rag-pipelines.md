@@ -2,7 +2,7 @@
 layout: blog-post
 title: "Building RAG Pipelines: What I've Learned So Far"
 date: 2026-06-15
-description: "Honest reflections on building Retrieval-Augmented Generation systems — the pitfalls, the surprises, and what actually matters in production."
+description: "Honest reflections on building Retrieval-Augmented Generation systems - the pitfalls, the surprises, and what actually matters in production."
 tags: AI, RAG, LLM, Python
 category: findings
 ---
@@ -19,9 +19,9 @@ Then we tried it with real data. And it fell apart.
 
 **The main issues:**
 
-Chunking strategy matters more than the embedding model. Splitting by fixed token count destroys context. Semantic chunking or sliding windows with overlap gave much better results — not marginally better, *dramatically* better.
+Chunking strategy matters more than the embedding model. Splitting by fixed token count destroys context. Semantic chunking or sliding windows with overlap gave much better results, not marginally better, *dramatically* better.
 
-Vector similarity alone isn't enough. Hybrid search — combining BM25 keyword matching with dense vector retrieval — outperformed pure vector search on every metric that mattered to us.
+Vector similarity alone isn't enough. Hybrid search combining BM25 keyword matching with dense vector retrieval, outperformed pure vector search on every metric that mattered to us.
 
 Reranking is cheap insurance. A cross-encoder reranker after initial retrieval improved answer quality significantly. The latency hit was minimal. No reason not to do it.
 
@@ -37,7 +37,7 @@ After a lot of trial and error, here's what I landed on:
 
 ## The Rabbit Hole Goes Deep
 
-I'm now experimenting with agentic RAG — letting the system decide when to retrieve, what to retrieve, and whether to retrieve again based on initial answers. Early results are promising, but the complexity grows fast.
+I'm now experimenting with agentic RAG - letting the system decide when to retrieve, what to retrieve, and whether to retrieve again based on initial answers. Early results are promising, but the complexity grows fast.
 
 Some days I feel like I'm making real progress. Other days I feel like I'm just stacking abstractions on top of abstractions.
 

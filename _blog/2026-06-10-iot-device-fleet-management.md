@@ -2,7 +2,7 @@
 layout: blog-post
 title: "IoT Device Fleet Management: What I'm Building Right Now"
 date: 2026-06-10
-description: "A look at what I'm currently working on at Linovt — managing fleets of IoT devices with constrained resources and unreliable networks."
+description: "A look at what I'm currently working on at Linovt - managing fleets of IoT devices with constrained resources and unreliable networks."
 tags: IoT, Embedded, MQTT, Python
 category: work-in-progress
 ---
@@ -13,7 +13,7 @@ Here's what I'm actually building right now.
 
 ## The Problem
 
-We have hundreds of devices spread across different locations. Each one runs on constrained hardware — think ARM Cortex-M class. Each one has intermittent connectivity. And each one needs to operate autonomously for weeks at a time.
+We have hundreds of devices spread across different locations. Each one runs on constrained hardware think ARM Cortex-M class. Each one has intermittent connectivity. And each one needs to operate autonomously for weeks at a time.
 
 The three hard problems:
 
@@ -33,7 +33,7 @@ This reduced our update payload by about 85%. What used to take 20 minutes now t
 
 ### CRDTs for State Sync
 
-For state reconciliation, I turned to CRDTs — Conflict-free Replicated Data Types. Each device maintains a last-writer-wins register for its telemetry data. When it reconnects, it merges local state with cloud state. No conflicts. No data loss.
+For state reconciliation, I turned to CRDTs "*Conflict-free Replicated Data Types*". Each device maintains a last-writer-wins register for its telemetry data. When it reconnects, it merges local state with cloud state. No conflicts. No data loss.
 
 It took me a while to wrap my head around CRDTs. But once I did, the state sync problem basically disappeared.
 
